@@ -1,0 +1,58 @@
+.main{
+    width: 1000px;
+    text-align: center;
+}
+.main div{
+    /* outline: 1px solid #EE5B5B; */
+}
+.main .header{
+    background: black;
+    color: white;
+}
+.main .body .editors-choice-main{
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    border: 3px solid #000; 
+    background: #DBCDCD;
+}
+
+.main .body .editors-choice-main .editors-choice li {
+    
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: inline-block;
+    margin: 5px; 
+    border: 2px solid #000; 
+    padding: 10px; 
+    background: black;
+}
+.main .body .sorting-block{
+    border: 2px solid #000;   
+    color: white;
+    background: black;
+}
+
+.main .body .chart-main .chart-block{
+   
+    width: 150px;
+    border: 2px solid #000;   
+   
+}
+
+.spotlight-artist-main{
+    padding: 20px;
+    border: 1px solid #000;   
+    background: #CBB6B6;
+    color: white;
+
+}
+
+.spotlight-artist-main li{
+    display: inline-block;
+    background: #060505;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
