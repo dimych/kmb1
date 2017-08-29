@@ -1,10 +1,65 @@
-.cart {
-    height: 50px;
-    width: 150px;
-    background: greenyellow;
-    color: blue;
-    text-align: center;
+#labelB {
+    width: 30px;
+    height: 30px;
+    margin: -5px;
+}
+.otherBeats .imgOtherBeats img {
+    height: 60px;
+    width: 60px;
+}
+/* html {
+    background: linear-gradient(black 20%, white 20%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);
+}  
+ body {
+    background: linear-gradient(black 28%, white 28%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);    
+    margin: 0px 200px;
+}  
+#header {
+    color: white;
     display: inline-block;
-    margin: 20px;
-    padding: 30px;
+}
+#header button {
+    float: right;
+    color: white;
+    border: 0px;
+    background: black;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#labelB {
+    width: 30px;
+}
+.balance {
+    padding: 10px 20px;
+    background: blue;
+}
+#imgWithClouds img{
+    height: 80px;
+    position: relative;
+    margin: 5px 100px;
+    width: 1300px;
+}
+#author {
+    color: blue;
+    margin: 10px 70px;
+}
+#nameOfTheSong {
+    color: white;
+    font-size: 150%;
+    margin: 10px 70px;
+}
+#chosenTrack #buttonsForTrack{
+    float: right;
+    margin: 10px 30px;
+}
+#chosenTrack span{
+    display: inline-block;
+}
+#buttonsForTrack button {
+    border:0px;
+    color: white;
+    background: blue;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
 }
