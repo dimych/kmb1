@@ -1,3 +1,11 @@
+.singer{
+    font-size: 25px;
+    color: blue;
+}
+.song{
+    font-size: 20px;
+    color: lightseagreen;
+}
 footer {
     height: 40px;
     position: absolute;

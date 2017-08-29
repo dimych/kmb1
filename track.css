@@ -1,0 +1,95 @@
+html {
+    background: linear-gradient(black 22%, white 22%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);
+    height: 100%;
+}   
+body {
+    height: 100%;
+    background: linear-gradient(black 28%, white 28%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);    
+    margin: 0px 200px;
+}
+
+
+#currentTrack {
+    color: white;
+    font-size: 150%;
+}
+#header div {
+    display: inline-block;
+}
+#header #labelB {
+    width: 40px;
+    height: 40px;
+    margin: -5px;
+}
+#header .headerLinks {
+    float: right;
+}
+#header .headerLinks a {
+    float: right;
+    color: white;
+    border: 0px;
+    background: black;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#header .headerLinks .balance {
+    float: right;
+    padding: 10px 20px;
+    background: blue;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+#imgWithClouds img{
+    height: 80px;
+    position: relative;
+    margin: 5px 100px;
+    width: 1300px;
+}
+
+
+#author {
+    color: blue;
+    margin: 10px 70px;
+}
+#nameOfTheSong {
+    color: white;
+    font-size: 150%;
+    margin: 10px 70px;
+}
+#chosenTrack #buttonsForTrack{
+    float: right;
+    margin: 10px 30px;
+}
+#chosenTrack div{
+    display: inline-block;
+}
+#chosenTrack #trackName {
+    display: inline;
+}
+#buttonsForTrack button {
+    border:0px;
+    color: white;
+    background: blue;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+#trackInfo button {
+    border: blue 1px solid;
+    background: black;
+    color: blue;
+}
+
+
+
+
+
+
+.otherBeats .imgOtherBeats img {
+    height: 60px;
+    width: 60px;
+}
