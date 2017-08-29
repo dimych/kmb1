@@ -1,0 +1,45 @@
+body{
+    width:1920px;
+    height:1778px;
+    margin-top: 0%;
+}
+
+.header{
+    color: white;
+    background: black;
+    position:fixed;
+    width:100%;
+    height:80px;   /*4.5%;*/
+    border:solid 1px black;
+    text-align: center;
+}
+.header .setting-profile-hide-menu{
+    display: none;
+}
+.header img{
+    width:40px;
+    height: 60px;  
+    margin-left: -800px;
+}
+
+
+.infoAboutUser{
+    width:100%;
+    height:300px; /*16.9%*/
+    border:solid 1px black;
+    float:left;
+    margin-top: 80px;
+}
+.infoAboutUser img{
+    width:100%;
+    height: 100%;
+}
+
+.setting-profile{
+    background: skyblue;
+    width:100%;
+    height:80px;
+    float:left;
+    border:solid 1px skyblue;
+    text-align: center;
+}
