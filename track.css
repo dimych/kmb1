@@ -1,116 +1,284 @@
-html {
-    background: linear-gradient(black 22%, white 22%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);
-}   
 body {
-    background: linear-gradient(black 34%, white 34%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);    
-    margin: 0px 200px;
+    margin: 0px;
+    display: inline-block;
+}
+.mainMargin {
+    width: 15%;
+    height: 100%;
+    display: inline-block;
+}
+.main {
+    width: 70%;
+    display: inline-block;
+}
+.header {
+    background: black;
+    color: white;
+    width: 100%;
+}
+.header .beatmakerstv {
+    font-size: 150%;
+    width: 30%;
+    vertical-align: middle;
+}
+.header div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header .labelB,
+.footer .labelB {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.header a,
+.footer a {
+    color: white;
+    padding: 10px 10px 10px 0px;
+    text-align: right;
+}
+.header .headerLinks {
+    width: 55%;
+    text-align: center;
+}
+.header .cartButton {
+    text-align: right;
+    padding: 10px 2%;
+    border: 0px;
+    cursor: pointer;
+    width: 5%;
+}
+.header .cartButton img {
+    vertical-align: middle;
+}
+.header .accountMenu {
+    background: blue;
+    cursor: pointer;
+    width: 6%;
+}
+
+.clouds img {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.playerWithCover .cover {
+    width: 17%;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 223px;
+}
+.playerWithCover .cover img {
+    height: 223px;
+    width: 100%;    
+}
+.playerWithCover .player {
+    display: inline-block;
+    background: lightgray;
+    width: 83%;
+    vertical-align: middle;
+    padding: 15px 0px;
+}
+.playerWithCover .player .trackStatus .chosenTrack {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    padding-left: 2%;
+    padding-bottom: 20px;
+}
+.playerWithCover .player .trackStatus .statusOfTrack {
+    color: blue;
+}
+.playerWithCover .player .trackStatus .nameOfTheSong {
+    font-size: 150%;
+}
+.playerWithCover .player .trackStatus .buttonsForTrack {
+    width: 47%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 2%;
+}
+.playerWithCover .player .trackStatus .buttonsForTrack button {
+    border:0px;
+    background: blue;
+    cursor: pointer;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    vertical-align: middle;
+    height: 45px;
+} 
+.playerWithCover .player .trackStatus .buttonsForTrack img {
+    height: 21px;
+    width: 21px;
+}
+.playerWithCover .player .trackStatus .buttonsForTrack #addToCard {
+    padding: 10px 50px;
 }
 
 
-#currentTrack {
+.trackInfo div {
+    display: inline-block;
+    margin: 0px;
+}
+.trackInfo label {
+    display: block;
+    margin: 0px;
+    padding-top: 25px;
+}
+.trackInfo button {
+    border: black 1px solid;
+    color: blue;
+    padding: 10px 0px;
+}
+.genreInfo {
+    padding-left: 2%;
+}
+.genreInfo,
+.moodInfo {
+    width: 13%;
+}
+.tagsInfo {
+    width: 38%;
+}
+.genreInfo button,
+.moodInfo button,
+.tagsInfo button {
+    width: 120px;
+    margin: 15px 10px 15px 0px;
+}
+.specialDeal {
+    width: 32%;
+    text-align: right;
+    padding-right: 2%;
+}
+.specialDeal button {
+    width: 170px;
+    margin: 15px 0px
+}
+
+.license {
+    padding-left: 100px;
+}
+.MP3LeaseBasket {
+    margin: 80px 1%;
+    display: inline-block;
+    width: 15%;
+}
+.MP3LeaseInner {
+    display: inline-block;
+    background: lightgray;
+    text-align: center;
+    width:100%;
+}
+.MP3LeaseInner .MP3Lease{
+    display: block;
+    color: darkblue;
+    padding: 15px 0px;
+}
+.MP3LeaseInner .price {
+    padding: 10px 0px;
+    font-size: 300%;
+    font-weight: bold;
+}
+.MP3LeaseInner .MP3LeaseSpecialDeal {
+    color: blue;
+    padding: 15px 0px;
+}
+.MP3LeaseButtons .fullLicensingIno {
+    background: blue;
+    width: 80%;
+}
+.MP3LeaseButtons .addMP3 {
+    background: darkblue;
+    width: 20%;
+}
+.MP3LeaseButtons .fullLicensingIno,
+.MP3LeaseButtons .addMP3 {
+    border: 0px;
+    padding: 15px;
     color: white;
+    cursor: pointer;
+}
+
+.recomendations {
+    background: blue;
+    color: white;
+}
+.recomendations .moreBeatsBy {
+    display: inline-block;
+    width: 50%;
+    padding: 0px;
+    height: 290px;
+    vertical-align: top;
+}
+.recomendations .moreBeatsBy .moreBeatsInner {
+    vertical-align: center;
+    padding: 110px 0px 10px 0px;
+    margin-left: 250px;
+    font-size: 200%;
+    font-weight: bold;
+}
+.recomendations .moreBeatsBy button {
+    border: 0px;
+    background: darkblue;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+.recomendations .examples {
+    width: 50%;
+    display: inline-block;
+}
+.recomendations .examples .otherBeats {
+    display: inline-block;
+    width: 20%;
+    padding: 50px 0px;
+}
+
+.recomendations .examples .otherBeats .beatName {
+    font-weight: bold;
+}
+
+
+.footer {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 100px 0px 50px 0px;
+}
+
+.footer .beatmakerstvLable {
     font-size: 150%;
+}
+.footer .beatmakerstvLable div {
+    vertical-align: middle;
+    display: inline-block;
+}
+.footer .footerLinks .beatmakerstvLinks{
+    display: inline-block;
     width: 33%;
 }
-#header div {
+.footer .footerLinks .myProileLinks{
     display: inline-block;
+    width: 33%;
 }
-#header #labelB {
-    width: 40px;
-    height: 40px;
+.footer .footerLinks .support{
+    display: inline-block;
+    width: 34%;
 }
-#header .headerLinks a {
+.footer .footerLinks .support div {
+    padding-bottom: 15px;
+}
+.footer .footerLinks .support button {
+    background: blue;
     color: white;
     border: 0px;
-    background: black;
-    padding: 10px 10px;
-    cursor: pointer;
-    font-size: 70%;
-    text-align: right;
-}
-#header .headerLinks {
-    text-align: right;
-    width: 60%;
-}
-#header .headerLinks .balance {
     padding: 10px 20px;
-    background: blue;
-    border: 0px;
     cursor: pointer;
 }
-
-
-#imgWithClouds img{
-    height: 60px;
-    position: relative;
-    margin: 2px 100px;
-    width: 750px;
-}
-
-#chosenTrack {
-    display: inline;
-}
-#author {
-    color: blue;
-    margin: 2px 70px;
-}
-#nameOfTheSong {
-    color: white;
-    font-size: 150%;
-    margin: 2px 70px;
-}
-#chosenTrack #buttonsForTrack{
-    text-align: right;
-    margin: 2px 30px;
-}
-#trackName {
-    width: 45%;
-    display: inline-block;
-}
-#buttonsForTrack {
-    width: 45%;
-    display: inline-block;
-}
-#buttonsForTrack button {
-    border:0px;
-    color: white;
-    background: blue;
-    padding: 10px;
-    margin: 2px;
-    cursor: pointer;
-}
-
-#trackInfo div {
-    display: inline-block;
-    margin: 0px 10px;
-}
-#trackInfo label {
-    display: block;
-    color: white;
-    margin: 0px 5px;
-}
-#trackInfo button {
-    border: blue 1px solid;
-    background: black;
-    color: blue;
-    width: 100%;
-    margin: 5px;
-}
-#genreInfo,
-#moodInfo {
-    width: 10%;
-}
-#tagsInfo {
-    width: 40%;
-}
-#tagsInfo button {
-    width: 27%;
-    margin: 5px;
-}
-
-
-
-.otherBeats .imgOtherBeats img {
-    height: 60px;
-    width: 60px;
+.footer .allRights .allRightsDescription {
+    padding-top: 100px;
+    text-align: center;
 }

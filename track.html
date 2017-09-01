@@ -8,130 +8,189 @@
             src="https://code.jquery.com/jquery-3.2.1.js"
             integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
             crossorigin="anonymous">
-        </script>
-        <script src='track.js'>
-        </script>  
+        </script> 
     </head>
-    <body>
-        <div id='header'>
-            <div>
-                <img id='labelB' src='https://cdn.pixabay.com/photo/2015/10/31/12/27/b-1015529_960_720.jpg'>
+    <body> 
+        <div class='mainMargin'>
+        </div><!--
+     --><div class='main'>
+            <div class='header'>
+                <div class='beatmakerstv'>
+                    <img class='labelB' src='assets/images/BLogo.png'>
+                    <div>
+                        BEATMAKERS.TV - THE CITY
+                    </div>
+                </div><!--
+             --><div class='headerLinks'>
+                    <a href>HOME</a>
+                    <a href>TOP CHARTS</a>
+                    <a href>TOP BEATMAKERS</a>
+                    <a href>CONTACT</a>    
+                </div><!--
+             --><div class='cartButton'>
+                    $25
+                    <img id='cartLogo' src='assets/images/CartPicture.png'>
+                </div><!--
+             --><div class='accountMenu'>
+                    <img id='accountMenuPic' src='assets/images/accountMenu.png'>
+                </div>
             </div>
-            <div id='currentTrack'>
-                "THE CITY" BY THE GAME
+            <div class='clouds'>
+                <img id='imgClouds' src='assets/images/clouds.png'>
             </div>
-            <div class='headerLinks'>
-                <a href>HOME</a>
-                <a href>NEWS</a>
-                <a href>CATALOG</a>
-                <a href>MY ACCOUNT</a>
-                <a href>MY FAVOURITES</a>
-                <button class='balance'>$25</button>
-            </div>  
+            <div class='playerWithCover'>
+                <div class='cover'>
+                        <img id='cover' src='assets/images/trackCover.png'>
+                </div><!-- 
+             --><div class='player'>
+                    <div class='trackStatus'>
+                        <div class='chosenTrack'>
+                            <div class='statusOfTrack'>Now Playing</div>
+                            <div class='nameOfTheSong'>The City (collab with Dr.Dre)</div>
+                        </div><!--
+                     --><div class='buttonsForTrack'>
+                            <button><img src='assets/images/downloadButton.png'></button>
+                            <button><img src='assets/images/StarButton.png'></button>
+                            <button id='addToCard'>Add to card</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='trackInfo'>
+                        <div class='genreInfo'>
+                            <label for='genreInfoButton'>Genre</label>
+                            <button id='genreInfoButton'>RAP</label>
+                        </div><!--
+                     --><div class='moodInfo'>
+                            <label for='moodInfoButton'>Mood</label>
+                            <button id='moodInfoButton'>SMOOTH</label>
+                        </div><!--
+                     --><div class='tagsInfo'>
+                            <label for='.tagsInfoButton'>Tags</label>
+                            <button class='tagsInfoButton'>#THEGAME</label>
+                            <button class='tagsInfoButton'>#REDALBUM</label>
+                            <button class='tagsInfoButton'>#THECITY</label>
+                        </div><!--
+                     --><div class='specialDeal'>
+                            <label for='specialDealButton'>Special Deal</label>
+                            <button id='specialDealButton'>BUY 1 GET 1 FREE</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='license'>
+                <div class='MP3LeaseBasket'>
+                    <div class='MP3LeaseInner'>
+                        <div class='MP3Lease'>
+                            MP3 MP3LEASE
+                        </div>
+                        <div class='price'>
+                            19.90$
+                        </div>
+                        <div class='MP3LeaseSpecialDeal'>
+                            Buy 1 Get 1 Free!
+                        </div>
+                    </div>
+                    <div class='MP3LeaseButtons'>
+                        <button class='fullLicensingIno'>
+                            Full Licensing Ino
+                        </button><!--
+                    --><button class='addMP3'>
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class='recomendations'>
+                <div class='moreBeatsBy'>
+                    <div class='moreBeatsInner'>
+                        More beats by TheGame
+                    </div>
+                    <button class='viewAll'>
+                        View all
+                    </button>
+                </div><!--
+            --><div class='examples'>
+                    <div class='otherBeats'>
+                        <div class='imgOtherBeats'>
+                            <img src='assets/images/beat1.png'>
+                        </div>
+                        <div class='beatName'>
+                            Beat Name
+                        </div>
+                        <div class='otherBeatsMood'>
+                            Trap
+                        </div>
+                    </div>
+                    <div class='otherBeats'>
+                        <div class='imgOtherBeats'>
+                            <img src='assets/images/beat2.png'>
+                        </div>
+                        <div class='beatName'>
+                            Beat Name
+                        </div>
+                        <div class='otherBeatsMood'>
+                            RnB
+                        </div>
+                    </div>
+                    <div class='otherBeats'>
+                        <div class='imgOtherBeats'>
+                            <img src='assets/images/beat3.png'>
+                        </div>
+                        <div class='beatName'>
+                            Beat Name
+                        </div>
+                        <div class='otherBeatsMood'>
+                            Smooth
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='footer'>
+                <div class='beatmakerstvLable'>
+                    <img class='labelB' src='assets/images/BLogo.png'>
+                    <div>
+                        BEATMAKERS.TV
+                    </div>
+                </div>
+                <div class='footerLinks'>
+                    <div class='beatmakerstvLinks'>
+                            <div><a href>Home</a></div>
+                            <div><a href>Top Charts</a></div>
+                            <div><a href>Top Producers</a></div>
+                            <div><a href>Contact</a></div>
+                    </div><!--
+                --><div class='myProileLinks'>
+                        <div class='myProfile'>
+                            MY PROFILE
+                        </div>
+                            <div><a href>My Feed</a></div>
+                            <div><a href>My Favourites</a></div>
+                            <div><a href>Purchased Beats</a></div>
+                    </div><!--
+                --><div class='support'>
+                        <div class='supportName'>
+                            SUPPORT
+                        </div>
+                        <div class='supportDescription'>
+                            If you have any questions about beatmakers.tv.
+                            <br>
+                            contact us at support@beatmakers.tv
+                        </div>
+                        <button>
+                            Send Message
+                        </button>
+                    </div>
+                </div>
+                <div class='allRights'>
+                    <div class='allRightsDescription'>
+                        beatmakers.tv.2017.All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div><!--
+     --><div class='mainMargin'>
         </div>
-        <div id='imgWithClouds'>
-            <img src='http://www.diamondmunicipal.com/files/1614/0181/9199/cloud.png'>
-        </div>
-        <div id='chosenTrack'>
-            <div id='trackName'>
-                <div id='author'>The Game</div>
-                <div id='nameOfTheSong'>The City (collab with Dr.Dre)</div>
-            </div>
-            <div id='buttonsForTrack'>
-                <button>D</button>
-                <button>S</button>
-                <button>Add to card</button>
-            </div>
-        </div>
-        <div id='trackInfo'>
-            <div id='genreInfo'>
-                <label for='genreInfoButton'>Genre</label>
-                <button id='genreInfoButton'>RAP</label>
-            </div>
-            <div id='moodInfo'>
-                <label for='moodInfoButton'>Mood</label>
-                <button id='moodInfoButton'>SMOOTH</label>
-            </div>
-            <div id='tagsInfo'>
-                <label for='tagsInfo'>Genre</label>
-                <button class='tagsInfoButton'>#THEGAME</label>
-                <button class='tagsInfoButton'>#REDALBUM</label>
-                <button class='tagsInfoButton'>#THECITY</label>
-            </div>
-            <div id='specialDeal'>
-                <label for='specialDealButton'>Genre</label>
-                <button id='specialDealButton'>BUY 1 GET 1 FREE</label>
-            </div>
-        </div> 
-        <div class='MP3LeaseBasket'>
-            <div id='MP3LeadeInner'>
-                <div id='MP3Lease'>
-                    MP3 MP3LEASE
-                </div>
-                <div id='price'>
-                    19.90$
-                </div>
-                <div id='MP3LeaseSpecialDeal'>
-                    Buy 1 Get 1 Free!
-                </div>
-            </div>
-            <div id='MP3LeaseButtons'>
-                <button id='fullLicensingIno'>
-                    Full Licensing Ino
-                </button>
-                <button id='addMP3'>
-                    +
-                </button>
-            <div>
-        </div> 
-        <div id='comments'>
-            Comments
-            <textarea>
-            </textarea>
-            <button id='sendComment'>
-                Send
-            </button>
-        </div>
-        <div id='moreBeats'>
-            <div id='moreBeatsBy'>
-                More beats by TheGame
-                <button id='viewAll'>
-                    View all
-                </button>
-            </div>
-            <div class='otherBeats'>
-                <div class='imgOtherBeats'>
-                    <img src='http://hq-wallpapers.ru/wallpapers/4/hq-wallpapers_ru_girls_17764_1280x800.jpg'>
-                </div>
-                <div class='beatName'>
-                    Beat Name
-                </div>
-                <div class='otherBeatsMood'>
-                    Trap
-                </div>
-            </div>
-            <div class='otherBeats'>
-                <div class='imgOtherBeats'>
-                    <img src='http://allswalls.com/images/girls-at-the-beach-wallpaper-1.jpg'>
-                </div>
-                <div class='beatName'>
-                    Beat Name
-                </div>
-                <div class='otherBeatsMood'>
-                    RnB
-                </div>
-            </div>
-            <div class='otherBeats'>
-                <div class='imgOtherBeats'>
-                    <img src='https://i.pinimg.com/736x/26/1b/74/261b74c328cef14f8f2f3e35aef37b8c.jpg'>
-                </div>
-                <div class='beatName'>
-                    Beat Name
-                </div>
-                <div class='otherBeatsMood'>
-                    Smooth
-                </div>
-            </div>
-        </div>
+        <script src='track.js'>
+        </script>
     </body> 
 </html>
