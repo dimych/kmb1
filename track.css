@@ -1,95 +1,294 @@
-html {
-    background: linear-gradient(black 22%, white 22%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);
-    height: 100%;
-}   
+.label-B {
+  vertical-align: middle;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+a {
+  color: white;
+  padding: 10px 15px 10px 0px;
+  text-align: right;
+}
 body {
-    height: 100%;
-    background: linear-gradient(black 28%, white 28%, white 50%, lightgray 50%, lightgray 70%, blue 70%, blue 85%, black 85%);    
-    margin: 0px 200px;
+  margin: 0px;
+  width: 1140px auto;
 }
-
-
-#currentTrack {
-    color: white;
-    font-size: 150%;
+header {
+  width: 1140px auto;
+  padding: 0px 385px;
+  background: black;
+  color: white;
+  height: 80px;
 }
-#header div {
-    display: inline-block;
+header .beatmakers-tv-header {
+  font-size: 100%;
+  width: 400px;
+  vertical-align: middle;
+  float: left;
+  padding-top: 20px;
 }
-#header #labelB {
-    width: 40px;
-    height: 40px;
-    margin: -5px;
+header div {
+  display: inline-block;
+  vertical-align: middle;
 }
-#header .headerLinks {
-    float: right;
+header .header-links {
+  width: 550px;
+  float: left;
+  padding-top: 35px;
 }
-#header .headerLinks a {
-    float: right;
-    color: white;
-    border: 0px;
-    background: black;
-    padding: 10px 10px;
-    cursor: pointer;
+header .cart-button {
+  text-align: right;
+  border: 0px;
+  cursor: pointer;
+  width: 65px;
+  height: 40px;
 }
-#header .headerLinks .balance {
-    float: right;
-    padding: 10px 20px;
-    background: blue;
-    border: 0px;
-    cursor: pointer;
+header .cart-button img {
+  vertical-align: middle;
+  height: 40px;
+  float: left;
 }
-
-
-#imgWithClouds img{
-    height: 80px;
-    position: relative;
-    margin: 5px 100px;
-    width: 1300px;
+header .cart-button .cart-logo-img {
+  height: 40px;
+  width: 30px;
 }
-
-
-#author {
-    color: blue;
-    margin: 10px 70px;
+header .cart-button .cash-on-account {
+  height: 40px;
+  width: 30px;
+  margin-right: 5px;
+  float: left;
+  vertical-align: middle;
 }
-#nameOfTheSong {
-    color: white;
-    font-size: 150%;
-    margin: 10px 70px;
+header .account-menu {
+  background: blue;
+  cursor: pointer;
+  width: 80px;
+  float: right;
 }
-#chosenTrack #buttonsForTrack{
-    float: right;
-    margin: 10px 30px;
+.clouds {
+  height: 202px;
 }
-#chosenTrack div{
-    display: inline-block;
+.clouds img {
+  width: 100%;
+  height: 100%;
 }
-#chosenTrack #trackName {
-    display: inline;
+.player-with-cover {
+  width: 1140px auto;
+  padding: 0px 385px;
 }
-#buttonsForTrack button {
-    border:0px;
-    color: white;
-    background: blue;
-    padding: 15px;
-    margin: 5px;
-    cursor: pointer;
+.player-with-cover .cover {
+  width: 17%;
+  display: inline-block;
+  vertical-align: bottom;
+  height: 223px;
 }
-
-
-#trackInfo button {
-    border: blue 1px solid;
-    background: black;
-    color: blue;
+.player-with-cover .cover img {
+  height: 223px;
+  width: 100%;
 }
-
-
-
-
-
-
-.otherBeats .imgOtherBeats img {
-    height: 60px;
-    width: 60px;
+.player-with-cover .player {
+  display: inline-block;
+  background: lightgray;
+  width: 83%;
+  vertical-align: middle;
+  padding: 15px 0px;
+}
+.player-with-cover .player .track-status .chosen-track {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+  padding-left: 2%;
+  padding-bottom: 20px;
+}
+.player-with-cover .player .track-status .chosen-track .status-of-track {
+  color: blue;
+}
+.player-with-cover .player .track-status .chosen-track .name-of-the-song {
+  font-size: 150%;
+}
+.player-with-cover .player .track-status .buttons-for-track {
+  width: 47%;
+  display: inline-block;
+  text-align: right;
+  padding-right: 2%;
+}
+.player-with-cover .player .track-status .buttons-for-track button {
+  border: 0px;
+  background: blue;
+  cursor: pointer;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+  vertical-align: middle;
+  height: 45px;
+}
+.player-with-cover .player .track-status .buttons-for-track img {
+  height: 21px;
+  width: 21px;
+}
+.player-with-cover .player .track-status .buttons-for-track .add-to-card {
+  padding: 10px 50px;
+}
+.track-info div {
+  display: inline-block;
+  margin: 0px;
+}
+.track-info label {
+  display: block;
+  margin: 0px;
+  padding-top: 25px;
+}
+.track-info button {
+  border: black 1px solid;
+  color: blue;
+  padding: 10px 0px;
+}
+.track-info .genre-info {
+  padding-left: 2%;
+  width: 14%;
+}
+.track-info .mood-info {
+  width: 14%;
+}
+.track-info .tags-info {
+  width: 46%;
+}
+.track-info .info-about-track-button {
+  width: 120px;
+  margin: 15px 10px 15px 0px;
+}
+.track-info .special-deal {
+  width: 22%;
+  text-align: right;
+  padding-right: 2%;
+}
+.track-info .special-deal button {
+  width: 170px;
+  margin: 15px 0px;
+}
+.license {
+  width: 1140px auto;
+  padding: 0px 385px;
+}
+.license .MP3-lease-basket {
+  margin: 80px 1%;
+  display: inline-block;
+  width: 15%;
+}
+.license .MP3-lease-basket .MP3-lease-inner {
+  display: inline-block;
+  background: lightgray;
+  text-align: center;
+  width: 100%;
+}
+.license .MP3-lease-basket .MP3-lease-inner .MP3-lease {
+  display: block;
+  color: darkblue;
+  padding: 15px 0px;
+}
+.license .MP3-lease-basket .MP3-lease-inner .price {
+  padding: 10px 0px;
+  font-size: 300%;
+  font-weight: bold;
+}
+.license .MP3-lease-basket .MP3-lease-inner .MP3-lease-special-deal {
+  color: blue;
+  padding: 15px 0px;
+}
+.license .MP3-lease-basket .MP3-lease-buttons .full-licensing-ino {
+  background: blue;
+  width: 80%;
+}
+.license .MP3-lease-basket .MP3-lease-buttons .add-MP3 {
+  background: darkblue;
+  width: 20%;
+}
+.license .MP3-lease-basket .MP3-lease-buttons button {
+  border: 0px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+}
+.recomendations {
+  width: 1140px auto;
+  padding: 0px 385px;
+  background: blue;
+  color: white;
+}
+.recomendations .more-beats-by {
+  display: inline-block;
+  width: 50%;
+  padding: 0px;
+  height: 290px;
+  vertical-align: top;
+}
+.recomendations .more-beats-by .more-beats-inner {
+  vertical-align: center;
+  padding: 110px 0px 10px 0px;
+  margin-left: 250px;
+  font-size: 200%;
+  font-weight: bold;
+}
+.recomendations .more-beats-by button {
+  border: 0px;
+  background: darkblue;
+  color: white;
+  padding: 10px 30px;
+  margin-left: 250px;
+  cursor: pointer;
+}
+.recomendations .examples {
+  width: 50%;
+  display: inline-block;
+}
+.recomendations .examples .other-beats {
+  display: inline-block;
+  width: 20%;
+  padding: 50px 0px;
+}
+.recomendations .examples .other-beats .beat-name {
+  font-weight: bold;
+}
+.row:after {
+  width: 100%;
+  clear: both;
+  display: block;
+  content: '';
+}
+.footer {
+  width: 1140px auto;
+  padding: 0px 385px;
+  background: black;
+  color: white;
+}
+.footer .beatmakers-tv-label-footer {
+  font-size: 150%;
+  float: top;
+}
+.footer .beatmakers-tv-label-footer div {
+  float: left;
+}
+.footer .beatmakers-tv-label-footer .beatmakers-tv-footer {
+  margin-top: 7px;
+}
+.footer .footer-links .beatmakers-tv-and-profile-links {
+  float: left;
+  width: 30%;
+}
+.footer .footer-links .support {
+  float: right;
+}
+.footer .footer-links .support div {
+  padding-bottom: 15px;
+}
+.footer .footer-links .support button {
+  background: blue;
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.footer .all-rights {
+  padding-top: 100px;
+  text-align: center;
 }

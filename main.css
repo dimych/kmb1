@@ -1,0 +1,114 @@
+* {
+    border: 1px solid green;
+}
+/* Хидер */
+.main-wrapper-header {
+    background-image: url(assets/images/nav-header-background.png);
+    height: 80px;
+}
+header {
+    width: 1140px;
+    margin: 0 auto;
+}
+header .header-section-container {
+    padding: 20px 10px;
+}
+.header-section-container .navbar-header,
+.navbar-header-text,
+.header-nav-links,
+.header-nav-search,
+.shopping-cart,
+.profile-logo-button {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+/* Обертка с поиском и наушниками */
+.page-body .main-content .search-wrapper-with-picture{
+    background-image: url(assets/images/search-section-image.png);
+    height: 600px;
+}
+.main-content .background-picture-container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.main-content .background-picture-container .text-area-container {
+    padding: 200px 240px 20px;
+}
+.main-content .background-picture-container .search-area-container {
+    padding: 20px 420px 20px;
+}
+/* spotlight beats section */
+.page-body .main-content .spotlight-beats-section-wrapper {
+    background-color: white;
+    height: 561px;
+}
+.page-body .main-content .spotlight-beats-section{
+    width: 1140px;
+    margin: 0 auto;
+}
+.page-body .main-content .spotlight-beats-section .spotlight-title{
+    padding: 70px 420px 20px 10px;
+}
+.page-body .main-content .spotlight-beats-section .beats-item{
+    padding: 10px 20px 20px 10px;
+}
+/* Chart Toppers section */
+.page-body .main-content .chart-toppers-section-wrapper{
+    background-image: url(assets/images/chart-toppers-background.png);
+    height: 455px;
+}
+.page-body .main-content .chart-toppers-section{
+    width: 1140px;
+    margin: 0 auto;
+}
+.page-body .main-content .chart-toppers-section .chart-toppers-title {
+    display: inline-block;
+    margin: 90px 910px 15px 10px;
+}
+
+.page-body .main-content .chart-toppers-section .chart-toppers-view-all-link {
+    display: inline-block;
+}
+.page-body .main-content .chart-toppers-section .chart-toppers-item {
+    margin-left: 10px;
+}
+/* Top500 section */
+.page-body .main-content .top500-section {
+    background-image: url(assets/images/top-500-background.png);
+    height: 650px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.page-body .main-content .top500-section .trap-beats .trap-background-image {
+    display: inline-block;
+    background-image: url(assets/images/trap.png);
+    height: 200px;
+    width: 550px;
+    margin: 100px 10px 25px 10px;
+}
+/* .page-body .main-content .top500-section .trap-beats .trap-background-image .trap-beats-title {
+    width: 50%;
+    margin: 0 auto;
+} */
+.page-body .main-content .top500-section .rnb-beats .rnb-background-image {
+    display: inline-block;
+    background-image: url(assets/images/rnb.png);
+    height: 200px;
+    width: 550px;
+    
+}
+.page-body .main-content .top500-section .pop-beats .pop-background-image {
+    display: inline-block;
+    background-image: url(assets/images/pop.png);
+    height: 200px;
+    width: 550px;
+    
+}
+.page-body .main-content .top500-section .old-school-beats .old-school-background-image {
+    display: inline-block;
+    background-image: url(assets/images/old-school.png);
+    height: 200px;
+    width: 550px;
+    
+}
