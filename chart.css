@@ -60,7 +60,7 @@
   height: 50px;
 }
 .main .body .editors-choice-main {
-  background-image: url(images-chart/ed.png);
+  background-image: url(assets/images/images-chart/ed.png);
   color: white;
   padding: 90px 0px 90px 0px;
 }
@@ -127,7 +127,7 @@
 }
 .main .spotlight-artist-main {
   padding: 20px;
-  background-image: url(images-chart/spotlight.png);
+  background-image: url(assets/images/images-chart/spotlight.png);
   color: white;
 }
 .main .spotlight-artist-main li {
