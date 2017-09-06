@@ -1,58 +1,139 @@
-.main{
-    width: 1000px;
-    text-align: center;
+.row {
+  width: 100%;
 }
-.main div{
-    /* outline: 1px solid #EE5B5B; */
+.row:after {
+  clear: both;
+  display: block;
+  content: '';
 }
-.main .header{
-    background: black;
-    color: white;
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
-.main .body .editors-choice-main{
-    text-align: center;
-    width: 1000px;
-    height: 200px;
-    border: 3px solid #000; 
-    background: #DBCDCD;
+.main {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial;
 }
-
-.main .body .editors-choice-main .editors-choice li {
-    
-    width: 100px;
-    height: 100px;
-    color: white;
-    display: inline-block;
-    margin: 5px; 
-    border: 2px solid #000; 
-    padding: 10px; 
-    background: black;
+.main .header {
+  background: black;
+  color: white;
+  padding: 20px 0px 20px 0px;
 }
-.main .body .sorting-block{
-    border: 2px solid #000;   
-    color: white;
-    background: black;
+.main .header a {
+  color: white;
+  text-decoration: none;
 }
-
-.main .body .chart-main .chart-block{
-   
-    width: 150px;
-    border: 2px solid #000;   
-   
+.main .header .logo {
+  text-align: left;
+  float: left;
 }
-
-.spotlight-artist-main{
-    padding: 20px;
-    border: 1px solid #000;   
-    background: #CBB6B6;
-    color: white;
-
+.main .header .logo img {
+  height: 40px;
 }
-
-.spotlight-artist-main li{
-    display: inline-block;
-    background: #060505;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+.main .header .header-menu {
+  float: left;
+  text-align: right;
+}
+.main .header .header-menu .header-menu-block {
+  text-align: right;
+  padding: 0;
+}
+.main .header .header-menu .header-menu-block .options {
+  float: left;
+}
+.main .header .header-menu .header-menu-block .seach {
+  float: left;
+}
+.main .header .header-menu .header-menu-block .cart {
+  float: left;
+}
+.main .header .header-menu .header-menu-block .user-menu {
+  float: left;
+  padding: 0px;
+  width: 80px;
+  height: 80px;
+  background: #2980b9;
+}
+.main .header .header-menu .header-menu-block .user-menu img {
+  width: 50px;
+  height: 50px;
+}
+.main .body .editors-choice-main {
+  background-image: url(images-chart/ed.png);
+  color: white;
+  padding: 90px 0px 90px 0px;
+}
+.main .body .editors-choice-main .editors-choice-title {
+  text-align: left;
+}
+.main .body .editors-choice-main .editors-choice-block {
+  float: left;
+  padding: 0px;
+}
+.main .body .editors-choice-main .editors-choice-block .editors-choice-icon {
+  width: 165px;
+  height: 165px;
+  background: black;
+  margin: 20px 30px 0px 0px;
+}
+.main .body .editors-choice-main .editors-choice-block .editors-choice-icon-last {
+  width: 165px;
+  height: 165px;
+  background: black;
+  margin: 20px 0px 0px 0px;
+}
+.main .body .editors-choice-main .editors-choice-block .singer {
+  color: white;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+.main .body .editors-choice-main .editors-choice-block .song {
+  color: #3498db;
+  font-size: 10px;
+  text-align: center;
+}
+.main .sorting-block {
+  color: white;
+  background: #212121;
+}
+.main .sorting-block select {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.1px solid white;
+  color: #EAE1E1;
+  padding: 8px;
+  margin: 15px 0px 15px 0px;
+}
+.main .sorting-block .top {
+  text-align: left;
+  float: left;
+}
+.main .sorting-block .top select {
+  width: 250px;
+}
+.main .sorting-block .sort-items {
+  text-align: right;
+}
+.main .sorting-block .sort-items select {
+  width: 200px;
+}
+.main .chart-main .track-item-menu {
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid #8B8383;
+}
+.main .chart-main .track-item-menu .track-item {
+  display: inline-block;
+}
+.main .spotlight-artist-main {
+  padding: 20px;
+  background-image: url(images-chart/spotlight.png);
+  color: white;
+}
+.main .spotlight-artist-main li {
+  display: inline-block;
+  background: #060505;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
