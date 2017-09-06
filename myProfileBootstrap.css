@@ -50,3 +50,23 @@
   background-repeat: no-repeat;
   background-position: 40px 15px;
 }
+.user-about img {
+  height: 300px;
+  position: absolute;
+  padding: 0 0 0 0;
+}
+.user-about .row {
+  height: 300px;
+}
+.user-about .row .user-ava {
+  background-image: url(assets/images/MyProfileImages/mainLogo.png);
+  background-repeat: no-repeat;
+  margin-top: 75px;
+}
+.user-about .row .user-name-email {
+  height: 80px;
+  color: white;
+  margin-left: 0%;
+  margin-top: 115px;
+  border-left: solid 2px white;
+}
