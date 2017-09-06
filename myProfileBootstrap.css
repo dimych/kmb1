@@ -1,0 +1,52 @@
+.pouring {
+  background: #191919;
+}
+.pouring header {
+  height: 80px;
+  background: #191919;
+  color: white;
+}
+.pouring header .header-logo {
+  margin-top: 20px;
+}
+.pouring header .header-list-menu {
+  margin-top: 30px;
+  text-align: right;
+}
+.pouring header .header-list-menu a {
+  color: white;
+  padding-right: 2%;
+  text-decoration: none;
+}
+.pouring header .header-search input {
+  background: #272727;
+  background-image: url(assets/images/MyProfileImages/Linza.png);
+  background-repeat: no-repeat;
+  background-position: 20px 30px;
+  text-indent: 50px;
+  height: 80px;
+  border: none;
+  padding: 0 0 0 0;
+}
+.pouring header .header-search input:focus {
+  background-image: none;
+}
+.pouring header .cart {
+  background-image: url(assets/images/MyProfileImages/cartmini.png);
+  background-repeat: no-repeat;
+  background-position: 60px 30px;
+}
+.pouring header .cart input {
+  text-align: center;
+  background: #191919;
+  width: 40px;
+  border: none;
+  padding: 0 0 0 0;
+  color: white;
+  margin-top: 30px;
+}
+.pouring header .extra-menu {
+  background-image: url(assets/images/MyProfileImages/userpick1.png);
+  background-repeat: no-repeat;
+  background-position: 40px 15px;
+}
