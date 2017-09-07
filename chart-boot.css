@@ -2,7 +2,27 @@
   background: black;
   color: white;
 }
-a {
+.header a {
   color: white;
   text-decoration: none;
+  padding: 10px;
+}
+.header .header-block {
+  padding-top: 15px;
+}
+.header .header-block .options {
+  color: white;
+  text-align: right;
+}
+.header .header-block .seach {
+  background: #272727;
+  text-align: left;
+  height: 30px;
+  color: #3f3f3f;
+}
+.header .header-block .seach input {
+  background: transparent;
+}
+.header .header-block .cart {
+  text-align: center;
 }
