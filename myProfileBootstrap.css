@@ -66,7 +66,23 @@
 .user-about .row .user-name-email {
   height: 80px;
   color: white;
-  margin-left: 0%;
   margin-top: 115px;
   border-left: solid 2px white;
+}
+.profile-tabs {
+  background: #3498db;
+  text-align: left;
+  height: 60px;
+}
+.profile-tabs .row div {
+  padding: 0 0 0 0;
+  height: 40px;
+  margin-top: 15px;
+}
+.profile-tabs .row div a {
+  color: white;
+  text-decoration: none;
+}
+.profile-tabs .row div a:hover {
+  border-bottom: solid 2px black;
 }
