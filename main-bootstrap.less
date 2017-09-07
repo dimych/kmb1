@@ -1,52 +1,138 @@
-* {
-    border: 1px solid rgba(0, 255, 26, 0.45);
-}
+// * {
+//     border: 1px solid rgba(0, 255, 26, 0.45);
+// }
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Roboto+Slab|Sedgwick+Ave+Display');
 body {
     -webkit-font-smoothing: antialised;
     -webkit-overflow-scrolling: touch;
-}
-.centered {
-    text-align: center;
-}
-a:hover, a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
-}
-.navbar {
-    font-weight: 400;
-    font-size: 14px;
-}
-.navbar-inverse {
-    background-image: url(assets/images/main-img/nav-header-background.png);
-}
-.nav-search {
-    background: url(assets/images/main-img/search-icon.png) no-repeat scroll 7px 7px;
-    padding-left: 30px;
-    
-}
-.main-wrapper-header {
-    .container {
-        .navbar-collapse{
-            .nav {
-                li {
-                    vertical-align: middle;
+    .main-wrapper-header {
+        height: 80px;
+        .navbar,
+        .navbar-inverse {
+            font-weight: 400;
+            font-size: 14px;
+            // height: 80px;
+            background-image: url(assets/images/main-img/nav-header-background.png);
+            .container {
+                .navbar-header {
+                    .navbar-brand {
+                        .logo {
+                            margin-top: 7px;
+                            display: inline-block;
+                        }
+                        .brand-text {
+                            display: inline-block;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+                .navbar-collapse {
+                    .nav {
+                        a {
+                            margin-top: 15px;
+                        }
+                        a:hover,
+                        a:focus {
+                            color: #DFD8D8;
+                            text-decoration: none;
+                            outline: 0;
+                        }
+                        input {
+                            background: #272727;
+                            background: url(assets/images/main-img/search-icon.png) no-repeat;
+                            background-position: 10px 30px;
+                            text-indent: 40px;
+                            height: 80px;
+                            border: none;
+                            padding: 0 0 0 0;
+                        }
+                        input:focus {
+                            background-image: none;
+                            background: #F8F6F6;
+                        }
+                        .cart-img {
+                            height: 78px;
+                            padding: 0 0 0 0;
+                        }
+                        .acc-img {
+                            margin-top: 15px;
+                        }
+                        .acc-img:hover {
+                            background: url(assets/images/main-img/acc-menu-active.png) no-repeat;
+                        }
+                    }
                 }
             }
         }
-        .navbar-header {
-            .navbar-brand {
-                display: inline-block;
-                vertical-align: middle;
-                height: 100%;
-                .logo {
-                    display: inline-block;
+    }
+    .page-body {
+        .search-wrapper {
+            height: 600px;
+            background: url(assets/images/main-img/search-section-image.png) no-repeat;
+            .title-present {
+                color: white;
+                font-family: 'Roboto Slab', serif;
+                margin: 180px 200px 20px 200px;
+                .string-location {
+                    margin-left: 50px;
                 }
-                .brand-text {
-                    display: inline-block;
-                    padding-left: 10px;
+                .blue-text {
+                    color: #5196F8;
+                }
+            }
+            .search-section {
+                margin-left: 150px;
+                input {
+                    height: 60px;
+                    width: 600px;
+                    background: transparent;
+                    border-radius: 50px;
+                }
+                button {
+                    height: 60px;
+                    width: 215px;
+                    background-color: #5196F8;
+                    color: white;
+                    font-family: 'Roboto Slab', serif;
+                    font-size: 18px;
+                    border-radius: 50px;
+                }
+            }
+        }
+        .spotlight-wrapper {
+            height: 561px;
+            .spotlight-section-title {
+                font-family: 'Sedgwick Ave Display', cursive;
+                margin: 100px 10px 30px;
+            }
+            .beats-section {
+                .beats-picture {
+                    // margin-left: -5px;
+                }
+                .name-beats-section {
+                    .track-name {
+                        text-align: center;
+                        padding: 0 0 0 0;
+                        margin: 10px 10px 0px 10px;
+                        font-family: 'Baloo Tammudu', cursive;
+                    }
+                }
+                .author-beats-section {
+                    .author-name{
+                        text-align: center;
+                        margin-left: 10px;
+                        padding: 0 0 0 0;
+                        color: #5196F8;
+                        font-family: 'Baloo Tammudu', cursive;
+                        margin-top: -18px;
+                        h5{
+                            font-size: 15px;
+                        }
+                    }
                 }
             }
         }
     }
 }
+
+
