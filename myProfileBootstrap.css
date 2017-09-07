@@ -86,3 +86,45 @@
 .profile-tabs .row div a:hover {
   border-bottom: solid 2px black;
 }
+.favorites {
+  background-color: white;
+  margin-top: 100px;
+}
+.favorites .song-menu {
+  background-color: #f0f0f0;
+}
+.favorites .song-menu p {
+  color: #3498db;
+}
+.favorites .song-menu .dovload {
+  margin-top: 20px;
+  border: none;
+  padding: 0 0 0 0;
+  width: 42px;
+  height: 42px;
+  background-color: #3498db;
+  background-image: url(assets/images/MyProfileImages/dovload.png);
+  background-repeat: no-repeat;
+  background-position: 13px 10px;
+}
+.favorites .song-menu .favorit {
+  margin-top: 20px;
+  border: none;
+  padding: 0 0 0 0;
+  width: 42px;
+  height: 42px;
+  background-color: #3498db;
+  opacity: 0.5;
+  background-image: url(assets/images/MyProfileImages/star.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
+.favorites .song-menu .buy-song {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  padding: 0 0 0 0;
+  width: 142px;
+  height: 42px;
+  background-color: #3498db;
+}
