@@ -25,7 +25,6 @@
                 text-indent: 50px;
                 height: 80px;
                 border: none;
-                padding: 0 0 0 0;
             }
             input:focus {
                 background-image: none;
@@ -40,7 +39,6 @@
                 background: #191919;
                 width: 40px;
                 border: none;
-                padding: 0 0 0 0;
                 color: white;
                 margin-top: 30px;
             }
@@ -57,7 +55,6 @@
     img {
         height: 300px;
         position: absolute;
-        padding: 0 0 0 0;
     }
     .row {
         height: 300px;
@@ -67,6 +64,7 @@
             margin-top: 75px;
         }
         .user-name-email {
+            padding-left: 45px;
             height: 80px;
             color: white;
             margin-top: 115px;
@@ -81,7 +79,6 @@
     height: 60px;
     .row {
         div {
-            padding: 0 0 0 0;
             height: 40px;
             margin-top: 15px;
             a {
@@ -99,14 +96,19 @@
     background-color: white;
     margin-top: 100px;
     .song-menu {
+        margin-bottom: 10px;
         background-color: #f0f0f0;
-        p {
+        .song-name p {
+            margin-top: 10px;
             color: #3498db;
+            margin-bottom: 0;
+        }
+        .dovload-btn {
+            padding-left: 65px;
         }
         .dovload {
             margin-top: 20px;
             border: none;
-            padding: 0 0 0 0;
             width: 42px;
             height: 42px;
             background-color: #3498db;
@@ -117,7 +119,6 @@
         .favorit {
             margin-top: 20px;
             border: none;
-            padding: 0 0 0 0;
             width: 42px;
             height: 42px;
             background-color: #3498db;
@@ -130,10 +131,23 @@
             margin-top: 20px;
             border: none;
             color: white;
-            padding: 0 0 0 0;
             width: 142px;
             height: 42px;
             background-color: #3498db;
+        }
+    }
+    .music-style {
+        font-weight: bold;
+        button {
+            text-align: center;
+            width: 110px;
+            height: 30px;
+            border: solid 2px #2980b9;
+            background-color: #f0f0f0;
+            color: #2980b9;
+        }
+        .hash-tag {
+            margin-left: 0px;
         }
     }
 }
