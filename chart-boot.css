@@ -7,22 +7,34 @@
   text-decoration: none;
   padding: 10px;
 }
-.header .header-block {
-  padding-top: 15px;
+.header .header-block .logo {
+  padding-top: 20px;
 }
 .header .header-block .options {
   color: white;
   text-align: right;
+  padding-top: 30px;
 }
 .header .header-block .seach {
   background: #272727;
   text-align: left;
-  height: 30px;
+  height: 80px;
   color: #3f3f3f;
+  bottom: 0px;
+}
+.header .header-block .seach i {
+  padding-left: 5px;
+  top: 30px;
 }
 .header .header-block .seach input {
   background: transparent;
+  position: absolute;
+  top: 30px;
 }
 .header .header-block .cart {
   text-align: center;
+  padding-top: 30px;
+}
+.header .header-block .user-menu {
+  padding-top: 15px;
 }
