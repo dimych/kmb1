@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Roboto+Slab|Sedgwick+Ave+Display');
+body {
+  -webkit-font-smoothing: antialised;
+  -webkit-overflow-scrolling: touch;
+}
+body .main-wrapper-header {
+  height: 80px;
+}
+body .main-wrapper-header .navbar,
+body .main-wrapper-header .navbar-inverse {
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #191919;
+}
+body .main-wrapper-header .navbar .container .navbar-header .navbar-brand .logo,
+body .main-wrapper-header .navbar-inverse .container .navbar-header .navbar-brand .logo {
+  margin-top: 7px;
+  display: inline-block;
+}
+body .main-wrapper-header .navbar .container .navbar-header .navbar-brand .brand-text,
+body .main-wrapper-header .navbar-inverse .container .navbar-header .navbar-brand .brand-text {
+  display: inline-block;
+  padding-left: 10px;
+}
+body .main-wrapper-header .navbar .container .navbar-collapse .nav a,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav a {
+  margin-top: 15px;
+}
+body .main-wrapper-header .navbar .container .navbar-collapse .nav a:hover,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav a:hover,
+body .main-wrapper-header .navbar .container .navbar-collapse .nav a:focus,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav a:focus {
+  color: #DFD8D8;
+  text-decoration: none;
+  outline: 0;
+}
+body .main-wrapper-header .navbar .container .navbar-collapse .nav input,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav input {
+  background: #272727;
+  background: url(assets/images/main-img/search-icon.png) no-repeat;
+  background-position: 10px 30px;
+  text-indent: 40px;
+  height: 80px;
+  border: none;
+  padding: 0 0 0 0;
+}
+body .main-wrapper-header .navbar .container .navbar-collapse .nav input:focus,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav input:focus {
+  background-image: none;
+  background: #F8F6F6;
+}
+body .main-wrapper-header .navbar .container .navbar-collapse .nav .cart-img,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav .cart-img {
+  height: 78px;
+  padding: 0 0 0 0;
+}
+body .main-wrapper-header .navbar .container .navbar-collapse .nav .acc-img,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav .acc-img {
+  margin-top: 15px;
+}
+body .main-wrapper-header .navbar .container .navbar-collapse .nav .acc-img:hover,
+body .main-wrapper-header .navbar-inverse .container .navbar-collapse .nav .acc-img:hover {
+  background: url(assets/images/main-img/acc-menu-active.png) no-repeat;
+}
+body .page-body .search-wrapper {
+  height: 600px;
+  background: url(assets/images/main-img/search-section-image.png) no-repeat;
+}
+body .page-body .search-wrapper .title-present {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  margin: 180px 200px 20px 200px;
+}
+body .page-body .search-wrapper .title-present .string-location {
+  margin-left: 50px;
+}
+body .page-body .search-wrapper .title-present .blue-text {
+  color: #3598db;
+}
+body .page-body .search-wrapper .search-section {
+  margin-left: 150px;
+}
+body .page-body .search-wrapper .search-section input {
+  height: 60px;
+  width: 600px;
+  background: transparent;
+  border-radius: 50px;
+}
+body .page-body .search-wrapper .search-section button {
+  height: 60px;
+  width: 215px;
+  background-color: #3598db;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  border-radius: 50px;
+}
+body .page-body .spotlight-wrapper {
+  height: 561px;
+  background-color: #fefefe;
+}
+body .page-body .spotlight-wrapper .spotlight-section-title {
+  font-family: 'Sedgwick Ave Display', cursive;
+  margin: 100px 10px 30px;
+}
+body .page-body .spotlight-wrapper .beats-section .name-beats-section .track-name {
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 10px 10px 0px 10px;
+  font-family: 'Baloo Tammudu', cursive;
+}
+body .page-body .spotlight-wrapper .beats-section .author-beats-section .author-name {
+  text-align: center;
+  margin-left: 10px;
+  padding: 0 0 0 0;
+  color: #3598db;
+  font-family: 'Baloo Tammudu', cursive;
+  margin-top: -18px;
+}
+body .page-body .spotlight-wrapper .beats-section .author-beats-section .author-name h5 {
+  font-size: 15px;
+}
+body .page-body .chart-toppers-wrapper {
+  height: 455px;
+  background: #111111;
+}
+body .page-body .chart-toppers-wrapper .chart-toppers-section-title {
+  color: #9d9d9d;
+}
+body .page-body .chart-toppers-wrapper .chart-toppers-section-title .title {
+  font-family: 'Sedgwick Ave Display', cursive;
+  height: 20px;
+  display: inline-block;
+  margin-top: 70px;
+}
+body .page-body .chart-toppers-wrapper .chart-toppers-section-title .title h3 {
+  margin: 0 0 0 0;
+}
+body .page-body .chart-toppers-wrapper .chart-toppers-section-title .expand-btn {
+  font-family: 'Sedgwick Ave Display', cursive;
+  display: inline-block;
+  margin-left: 1050px;
+  text-align: center;
+}
+body .page-body .chart-toppers-wrapper .chart-toppers-beats-section .name-chart-toppers-section .track-name {
+  text-align: center;
+  padding: 0 0 0 0;
+  margin-top: 10px;
+  font-family: 'Baloo Tammudu', cursive;
+  color: #9d9d9d;
+}
+body .page-body .chart-toppers-wrapper .chart-toppers-beats-section .author-chart-toppers-section .author-name {
+  text-align: center;
+  padding: 0 0 0 0;
+  color: #3598db;
+  font-family: 'Baloo Tammudu', cursive;
+  margin-top: -18px;
+}
+body .page-body .chart-toppers-wrapper .chart-toppers-beats-section .author-chart-toppers-section .author-name h5 {
+  font-size: 15px;
+}
+body .page-body .top500-wrapper {
+  height: 630px;
+  background-color: #fefefe;
+}
+body .page-body .top500-wrapper .container .row {
+  margin-top: 100px;
+  margin-left: 5px;
+}
+body .page-body .top500-wrapper .container .row .col-md-6 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+body .page-body .top500-wrapper .container .row .col-md-6 img {
+  width: 100%;
+}
+body .page-body .top500-wrapper .container .row .col-md-6 span {
+  position: absolute;
+  top: calc(40%);
+  height: 50px;
+  width: 320px;
+  text-align: center;
+  transform: translate(-50%);
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+}
+body .page-body .top500-wrapper .container .row .col-md-6 span mark.blue {
+  color: #3598db;
+  background: none;
+}
+body .page-body .filter-wrapper {
+  height: 200px;
+  background-color: #3598db;
+}
+body .page-body .filter-wrapper .container .row {
+  margin-top: 75px;
+  margin-left: 5px;
+}
+body .page-body .filter-wrapper .container .row .filter-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: white;
+}
+body .page-body .filter-wrapper .container .row .genre {
+  margin-left: 30px;
+}
+body .page-body .filter-wrapper .container .row .moods {
+  margin-left: 20px;
+}
+body .page-body .filter-wrapper .container .row .keywords {
+  margin-left: 20px;
+}
+body .page-body .filter-wrapper .container .row .keywords input {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid white;
+  margin-right: 3px;
+  text-indent: 10px;
+}
+body .page-body .filter-wrapper .container .row .keywords button {
+  width: 50px;
+  height: 50px;
+  background: #1D8EDC;
+  border: 1px solid white;
+}
+body .page-body .filter-wrapper .container .row select {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: 500;
+  padding: 5px;
+}
+body .page-body .best-producers-wrapper {
+  height: 450px;
+  background: url(assets/images/main-img/best-producers.png) no-repeat;
+}
+body .page-body .best-producers-wrapper .best-producers-section-title {
+  color: #9d9d9d;
+  margin-left: 5px;
+}
+body .page-body .best-producers-wrapper .best-producers-section-title .title {
+  font-family: 'Sedgwick Ave Display', cursive;
+  height: 20px;
+  display: inline-block;
+  margin-top: 100px;
+}
+body .page-body .best-producers-wrapper .best-producers-section-title .title h3 {
+  margin: 0 0 0 0;
+}
+body .page-body .best-producers-wrapper .best-producers-section-title .expand-btn {
+  font-family: 'Sedgwick Ave Display', cursive;
+  display: inline-block;
+  margin-left: 1050px;
+  text-align: center;
+}
+body .page-body .best-producers-wrapper .best-producers-section .name-best-producers-section .track-name {
+  text-align: center;
+  padding: 0 0 0 0;
+  margin-top: 10px;
+  font-family: 'Baloo Tammudu', cursive;
+  color: #9d9d9d;
+}
+body .page-body .best-producers-wrapper .best-producers-section .author-best-producers-section .author-name {
+  text-align: center;
+  padding: 0 0 0 0;
+  color: #3598db;
+  font-family: 'Baloo Tammudu', cursive;
+  margin-top: -18px;
+}
+body .page-body .best-producers-wrapper .best-producers-section .author-best-producers-section .author-name h5 {
+  font-size: 15px;
+}
+body .footer .pre-footer {
+  height: 408px;
+  background-color: #111111;
+}
+body .footer .pre-footer .brand {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+body .footer .pre-footer .brand .logo {
+  margin-top: 7px;
+  display: inline-block;
+}
+body .footer .pre-footer .brand .brand-text {
+  display: inline-block;
+  padding-left: 10px;
+}
+body .footer .pre-footer .links {
+  margin-top: 50px;
+  margin-left: 5px;
+}
+body .footer .pre-footer .links .home-block li {
+  color: #9d9d9d;
+}
+body .footer .pre-footer .links ul {
+  padding: 0;
+  list-style-type: none;
+}
+body .footer .main-footer {
+  height: 100px;
+  background-color: #0c0c0c;
+  color: white;
+}
+body .footer .main-footer span {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+body .footer .main-footer span .row {
+  margin-left: 20px;
+}

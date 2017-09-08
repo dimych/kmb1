@@ -1,0 +1,352 @@
+// * {
+//     border: 1px solid rgba(0, 255, 26, 0.45);
+// }
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Roboto+Slab|Sedgwick+Ave+Display');
+body {
+    -webkit-font-smoothing: antialised;
+    -webkit-overflow-scrolling: touch;
+    .main-wrapper-header {
+        height: 80px;
+        .navbar,
+        .navbar-inverse {
+            font-weight: 400;
+            font-size: 14px; // height: 80px;
+            background-color: #191919;
+            .container {
+                .navbar-header {
+                    .navbar-brand {
+                        .logo {
+                            margin-top: 7px;
+                            display: inline-block;
+                        }
+                        .brand-text {
+                            display: inline-block;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+                .navbar-collapse {
+                    .nav {
+                        a {
+                            margin-top: 15px;
+                        }
+                        a:hover,
+                        a:focus {
+                            color: #DFD8D8;
+                            text-decoration: none;
+                            outline: 0;
+                        }
+                        input {
+                            background: #272727;
+                            background: url(assets/images/main-img/search-icon.png) no-repeat;
+                            background-position: 10px 30px;
+                            text-indent: 40px;
+                            height: 80px;
+                            border: none;
+                            padding: 0 0 0 0;
+                        }
+                        input:focus {
+                            background-image: none;
+                            background: #F8F6F6;
+                        }
+                        .cart-img {
+                            height: 78px;
+                            padding: 0 0 0 0;
+                        }
+                        .acc-img {
+                            margin-top: 15px;
+                        }
+                        .acc-img:hover {
+                            background: url(assets/images/main-img/acc-menu-active.png) no-repeat;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-body {
+        .search-wrapper {
+            height: 600px;
+            background: url(assets/images/main-img/search-section-image.png) no-repeat;
+            .title-present {
+                color: white;
+                font-family: 'Roboto Slab', serif;
+                margin: 180px 200px 20px 200px;
+                .string-location {
+                    margin-left: 50px;
+                }
+                .blue-text {
+                    color: #3598db
+                }
+            }
+            .search-section {
+                margin-left: 150px;
+                input {
+                    height: 60px;
+                    width: 600px;
+                    background: transparent;
+                    border-radius: 50px;
+                }
+                button {
+                    height: 60px;
+                    width: 215px;
+                    background-color: #3598db;
+                    color: white;
+                    font-family: 'Roboto Slab', serif;
+                    font-size: 18px;
+                    border-radius: 50px;
+                }
+            }
+        }
+        .spotlight-wrapper {
+            height: 561px;
+            background-color: #fefefe;
+            .spotlight-section-title {
+                font-family: 'Sedgwick Ave Display', cursive;
+                margin: 100px 10px 30px;
+            }
+            .beats-section {
+                .beats-picture {
+                    // margin-left: -5px;
+                }
+                .name-beats-section {
+                    .track-name {
+                        text-align: center;
+                        padding: 0 0 0 0;
+                        margin: 10px 10px 0px 10px;
+                        font-family: 'Baloo Tammudu', cursive;
+                    }
+                }
+                .author-beats-section {
+                    .author-name {
+                        text-align: center;
+                        margin-left: 10px;
+                        padding: 0 0 0 0;
+                        color: #3598db;
+                        font-family: 'Baloo Tammudu', cursive;
+                        margin-top: -18px;
+                        h5 {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .chart-toppers-wrapper {
+            height: 455px;
+            background: #111111;
+            .chart-toppers-section-title {
+                color: #9d9d9d;
+                .title {
+                    font-family: 'Sedgwick Ave Display', cursive;
+                    height: 20px;
+                    display: inline-block;
+                    margin-top: 70px;
+                    h3 {
+                        margin: 0 0 0 0;
+                    }
+                }
+                .expand-btn {
+                    font-family: 'Sedgwick Ave Display', cursive;
+                    display: inline-block;
+                    margin-left: 1050px;
+                    text-align: center;
+                }
+            }
+            .chart-toppers-beats-section {
+                .name-chart-toppers-section {
+                    .track-name {
+                        text-align: center;
+                        padding: 0 0 0 0;
+                        margin-top: 10px;
+                        font-family: 'Baloo Tammudu', cursive;
+                        color: #9d9d9d;
+                    }
+                }
+                .author-chart-toppers-section {
+                    .author-name {
+                        text-align: center;
+                        padding: 0 0 0 0;
+                        color: #3598db;
+                        font-family: 'Baloo Tammudu', cursive;
+                        margin-top: -18px;
+                        h5 {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .top500-wrapper {
+            height: 630px;
+            background-color: #fefefe;
+            .container {
+                .row {
+                    margin-top: 100px;
+                    margin-left: 5px;
+                    .col-md-6 {
+                        margin-bottom: 30px;
+                        text-align: center;
+                        img {
+                            width: 100%;
+                        }
+                        span {
+                            position: absolute;
+                            top: calc(50% - 10px);
+                            height: 50px;
+                            width: 320px;
+                            text-align: center;
+                            transform: translate(-50%);
+                            color: white;
+                            font-family: 'Roboto Slab', serif;
+                            font-size: 26px;
+                            mark.blue {
+                                color: #3598db;
+                                background: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .filter-wrapper {
+            height: 200px;
+            background-color: #3598db;
+            .container {
+                .row {
+                    margin-top: 75px;
+                    margin-left: 5px;
+                    .filter-text {
+                        font-family: 'Roboto Slab', serif;
+                        font-size: 20px;
+                        color: white;
+                    }
+                    .genre {
+                        margin-left: 30px;
+                    }
+                    .moods {
+                        margin-left: 20px;
+                    }
+                    .keywords {
+                        margin-left: 20px;
+                        input {
+                            width: 200px;
+                            height: 50px;
+                            background: transparent;
+                            border: 1px solid white;
+                            margin-right: 3px;
+                            text-indent: 10px;
+                        }
+                        button {
+                            width: 50px;
+                            height: 50px;
+                            background: #1D8EDC;
+                            border: 1px solid white;
+                        }
+                    }
+                    select {
+                        width: 200px;
+                        height: 50px;
+                        background: transparent;
+                        border: 1px solid white;
+                        color: white;
+                        font-weight: 500;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+        .best-producers-wrapper {
+            height: 450px;
+            background: url(assets/images/main-img/best-producers.png) no-repeat;
+            .best-producers-section-title {
+                color: #9d9d9d;
+                margin-left: 5px;
+                .title {
+                    font-family: 'Sedgwick Ave Display', cursive;
+                    height: 20px;
+                    display: inline-block;
+                    margin-top: 100px;
+                    h3 {
+                        margin: 0 0 0 0;
+                    }
+                }
+                .expand-btn {
+                    font-family: 'Sedgwick Ave Display', cursive;
+                    display: inline-block;
+                    margin-left: 1050px;
+                    text-align: center;
+                }
+            }
+            .best-producers-section {
+                .name-best-producers-section {
+                    .track-name {
+                        text-align: center;
+                        padding: 0 0 0 0;
+                        margin-top: 10px;
+                        font-family: 'Baloo Tammudu', cursive;
+                        color: #9d9d9d;
+                    }
+                }
+                .author-best-producers-section {
+                    .author-name {
+                        text-align: center;
+                        padding: 0 0 0 0;
+                        color: #3598db;
+                        font-family: 'Baloo Tammudu', cursive;
+                        margin-top: -18px;
+                        h5 {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .pre-footer {
+            height: 408px;
+            background-color: #111111;
+            .brand {
+                margin-top: 50px;
+                margin-left: 10px;
+                .logo {
+                    margin-top: 7px;
+                    display: inline-block;
+                }
+                .brand-text {
+                    display: inline-block;
+                    padding-left: 10px;
+                }
+            }
+            .links {
+                margin-top: 50px;
+                margin-left: 5px;
+                .home-block {
+                    li {
+                        color: #9d9d9d;
+                    }
+
+                }
+                ul {
+                    padding: 0;
+                    list-style-type: none;
+                }
+            }
+        }
+        .main-footer {
+            height: 100px;
+            background-color: #0c0c0c;
+            color: white;
+            span {
+                color: white;
+                font-family: 'Roboto Slab', serif;
+                font-size: 16px;
+                .row {
+                    margin-left: 20px; 
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,162 @@
+@bl-color: black;
+.row {
+    width: 100%;
+    &:after {
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial;
+    .header {
+        
+        background: @bl-color;
+        color: white;
+        padding: 20px 0px 20px 0px;
+        
+        a{
+           color: white;
+            text-decoration: none;
+        }
+        .logo{
+            text-align: left;
+            float: left;
+            img{
+                height: 40px;
+            }
+        }
+        .header-menu{
+            float: left;
+            text-align: right;
+            .header-menu-block{
+                text-align: right;  
+                padding: 0;
+                .options{
+                    float: left;
+                }
+                .seach{
+                    float: left;
+                }
+            
+                .cart{
+                    float: left;
+                }
+                .user-menu{
+                    float: left;
+                    padding: 0px;
+                    width: 80px;
+                    height: 80px;
+                    background: #2980b9;
+                    img{
+                        
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .body {
+        .editors-choice-main {
+            background-image: url(assets/images/images-chart/ed.png);
+            color: white;
+            padding: 90px 0px 90px 0px;
+            .editors-choice-title {
+                text-align: left;
+            }
+            .editors-choice-block {
+                float: left;
+                padding: 0px;
+                .editors-choice-icon {
+                    width: 165px;
+                    height: 165px;
+                    background: @bl-color;
+                    margin: 20px 30px 0px 0px;
+                }
+                .editors-choice-icon-last{
+                    width: 165px;
+                    height: 165px;
+                    background: @bl-color;
+                    margin:20px 0px 0px 0px;
+                }
+                .singer {
+                    color: white;
+                    text-align: center;
+                    margin: 10px 0 0 0;
+                }
+                .song {
+                    color: #3498db;
+                    font-size: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .sorting-block {
+        color: white;
+        background: #212121;
+        select {
+            background-color: rgba(255, 255, 255, 0);
+            border: 0.1px solid white;
+            color: #EAE1E1;
+            padding: 8px;
+            margin: 15px 0px 15px 0px;
+           
+        }
+        .top{
+            text-align: left;
+            float: left; 
+            select{
+                width: 250px;
+                
+            }    
+        }
+        .sort-items{        
+            text-align: right;
+            select{
+                width: 200px;
+                
+            }
+            
+        }
+    }
+    .chart-main {
+        .track-item-menu {
+            margin: 0 auto;
+            width: 350px;
+            border: 1px solid #8B8383;
+            
+            .track-item{
+                
+                display: inline-block;
+            }
+
+        }
+    }
+    .spotlight-artist-main {
+        padding: 20px;
+        background-image: url(assets/images/images-chart/spotlight.png);
+        color: white;
+        li {
+            display: inline-block;
+            background: #060505;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+    }
+}
+
+
+// .main div {
+//      outline: 1px solid #EE5B5B;
+//  } 

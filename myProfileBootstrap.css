@@ -1,0 +1,191 @@
+.pouring {
+  background: #191919;
+}
+.pouring header {
+  height: 80px;
+  background: #191919;
+  color: white;
+}
+.pouring header .header-logo {
+  margin-top: 20px;
+}
+.pouring header .header-list-menu {
+  margin-top: 30px;
+  text-align: right;
+}
+.pouring header .header-list-menu a {
+  color: white;
+  padding-right: 2%;
+  text-decoration: none;
+}
+.pouring header .header-search input {
+  background: #272727;
+  background-image: url(assets/images/MyProfileImages/Linza.png);
+  background-repeat: no-repeat;
+  background-position: 20px 30px;
+  text-indent: 50px;
+  height: 80px;
+  border: none;
+}
+.pouring header .header-search input:focus {
+  background-image: none;
+}
+.pouring header .cart {
+  background-image: url(assets/images/MyProfileImages/cartmini.png);
+  background-repeat: no-repeat;
+  background-position: 40px 25px;
+}
+.pouring header .cart input {
+  text-align: center;
+  background: #191919;
+  width: 40px;
+  border: none;
+  color: white;
+  margin-top: 25px;
+}
+.pouring header .extra-menu {
+  background-image: url(assets/images/MyProfileImages/userpick1.png);
+  background-repeat: no-repeat;
+  background-position: 40px 15px;
+}
+.user-about img {
+  height: 300px;
+  position: absolute;
+}
+.user-about .row {
+  height: 300px;
+}
+.user-about .row .user-ava {
+  background-image: url(assets/images/MyProfileImages/mainLogo.png);
+  background-repeat: no-repeat;
+  margin-top: 75px;
+}
+.user-about .row .user-name-email {
+  padding-left: 45px;
+  height: 80px;
+  color: white;
+  margin-top: 115px;
+  border-left: solid 2px white;
+}
+.profile-tabs {
+  background: #3498db;
+  text-align: left;
+  height: 60px;
+}
+.profile-tabs .row div {
+  height: 40px;
+  margin-top: 15px;
+}
+.profile-tabs .row div a {
+  color: white;
+  text-decoration: none;
+}
+.profile-tabs .row div a:hover {
+  border-bottom: solid 2px black;
+}
+.favorites {
+  background-color: white;
+  margin-top: 100px;
+}
+.favorites .song-menu {
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+}
+.favorites .song-menu .song-name p {
+  margin-top: 10px;
+  color: #3498db;
+  margin-bottom: 0;
+}
+.favorites .song-menu .dovload-btn {
+  padding-left: 65px;
+}
+.favorites .song-menu .dovload {
+  margin-top: 20px;
+  border: none;
+  width: 42px;
+  height: 42px;
+  background-color: #3498db;
+  background-image: url(assets/images/MyProfileImages/dovload.png);
+  background-repeat: no-repeat;
+  background-position: 13px 10px;
+}
+.favorites .song-menu .favorit {
+  margin-top: 20px;
+  border: none;
+  width: 42px;
+  height: 42px;
+  background-color: #3498db;
+  opacity: 0.5;
+  background-image: url(assets/images/MyProfileImages/star.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
+.favorites .song-menu .buy-song {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  width: 142px;
+  height: 42px;
+  background-color: #3498db;
+}
+.favorites .music-style {
+  font-weight: bold;
+}
+.favorites .music-style button {
+  text-align: center;
+  width: 110px;
+  height: 30px;
+  border: solid 2px #2980b9;
+  background-color: #f0f0f0;
+  color: #2980b9;
+}
+.favorites .music-style .hash-tag {
+  margin-left: 0px;
+}
+.footer {
+  background-color: #111111;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.footer .footer-logo img {
+  margin-top: 100px;
+}
+.footer .footer-links {
+  margin-top: 50px;
+}
+.footer .footer-links a {
+  color: white;
+}
+.footer .footer-my-profile {
+  color: white;
+  margin-top: 50px;
+}
+.footer .footer-my-profile a {
+  color: white;
+}
+.footer .footer-profile-support {
+  margin-top: 50px;
+  color: white;
+}
+.footer .footer-profile-support button {
+  margin-top: 5px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  border: none;
+  width: 135px;
+  height: 30px;
+  font-weight: bold;
+}
+.textbold {
+  font-weight: bold;
+}
+.end-suite {
+  background-color: #0c0c0c;
+}
+.end-suite .end {
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
