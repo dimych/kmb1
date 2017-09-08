@@ -5,15 +5,16 @@
 .header a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 3%;
 }
 .header .header-block .logo {
-  padding-top: 20px;
+  padding-top: 2%;
 }
 .header .header-block .options {
   color: white;
   text-align: right;
-  padding-top: 30px;
+  padding-top: 4.5%;
+  padding-right: 3%;
 }
 .header .header-block .seach {
   background: #272727;
@@ -29,39 +30,43 @@
 .header .header-block .seach input {
   background: transparent;
   position: absolute;
-  top: 30px;
+  top: 35%;
 }
 .header .header-block .cart {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 4.5%;
 }
 .header .header-block .user-menu {
-  padding-top: 15px;
+  padding-top: 2.5%;
 }
 .editors-choice-main {
   background-image: url(assets/images/images-chart/ed.png);
   color: white;
 }
 .editors-choice-main .editors-choice-title {
-  padding-top: 100px;
+  padding-top: 8%;
 }
 .editors-choice-main .editors-choice-block {
-  padding-bottom: 100px;
+  padding-bottom: 8%;
   text-align: center;
 }
 .editors-choice-main .editors-choice-block .editors-choice-icon {
   width: 165px;
   height: 165px;
   background: black;
-  margin: 20px 30px 0px 0px;
+  margin: 15% 3% 0% 0%;
 }
-.editors-choice-main .editors-choice-block .editors-choice-icon-last {
-  width: 165px;
-  height: 165px;
-  background: black;
-  margin: 20px 0px 0px 0px;
+.editors-choice-main .editors-choice-block .editors-choice-icon:last-child {
+  margin: 15% 0% 0% 0%;
 }
-.editors-choice-main .editors-choice-block .song {
+.editors-choice-main .editors-choice-block a {
+  height: 100%;
+  text-decoration: none;
+}
+.editors-choice-main .editors-choice-block .singer a {
+  color: white;
+}
+.editors-choice-main .editors-choice-block .song a {
   color: #3498db;
   text-align: center;
 }
@@ -73,20 +78,23 @@
   background-color: rgba(255, 255, 255, 0);
   border: 0.1px solid white;
   color: #EAE1E1;
-  padding: 8px;
-  margin: 15px 0px 15px 0px;
 }
 .sorting-block .top select {
-  width: 250px;
+  width: 100%;
+  padding: 3.2%;
+  margin-top: 5.5%;
 }
 .sorting-block .sort-items {
   text-align: right;
 }
 .sorting-block .sort-items select {
-  width: 200px;
+  width: 25%;
+  margin: 2% 0% 2% 1%;
+  padding: 1%;
 }
 .chart-main {
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 .chart-main .track-item-menu {
   background: #f0f0f0;
@@ -108,19 +116,129 @@
   padding-left: 20px;
   padding-top: 20px;
 }
-.chart-main .track-item-menu .name-track .song {
+.chart-main .track-item-menu .name-track a {
+  text-decoration: none;
+}
+.chart-main .track-item-menu .name-track .sing a {
+  color: black;
+}
+.chart-main .track-item-menu .name-track .song a {
   color: #3498db;
+}
+.chart-main .options-track {
+  transform: translate(15%, 50%);
+}
+.chart-main .options-track .save {
+  margin-right: 10px;
+  background: #3498db;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.chart-main .options-track .favorite {
+  margin-right: 10px;
+  background: #3498db;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.chart-main .options-track .add-to-card {
+  margin-right: 10px;
+  background: #3498db;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.chart-main .options-track .add-to-card a {
+  color: white;
+  text-decoration: none;
+}
+.chart-main .options-track .information {
+  margin-right: 10px;
+  background: #3498db;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.chart-main .loadmore {
+  text-align: center;
+}
+.chart-main .loadmore button {
+  background: #3498db;
+  color: white;
+  padding: 1% 10%;
 }
 .spotlight-artist-main {
   background: #3498db;
   color: white;
 }
-.spotlight-artist-main .spotlight-icon {
+.spotlight-artist-main .spotlight-artist .spotlight-title {
+  height: 100%;
+}
+.spotlight-artist-main .spotlight-artist .spotlight-title .title-sp {
+  margin-top: 50%;
+}
+.spotlight-artist-main .spotlight-artist .spotlight-icon {
   background: #060505;
   width: 160px;
   height: 160px;
   border-radius: 80px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 30px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-right: 3%;
+  text-align: left;
+}
+.spotlight-artist-main .spotlight-artist .spotlight-icon:last-child {
+  margin-right: 0px;
+}
+.player .player-track .singer {
+  color: #3498db;
+  padding-top: 10.5%;
+}
+.player .player-btn {
+  padding-top: 2.5%;
+  text-align: center;
+  background: transparent;
+}
+.player .player-btn button {
+  background: #f0f0f0;
+}
+.player .player-btn .btn-play {
+  padding-top: -1%;
+}
+.player .player-options {
+  padding-top: 2.5%;
+  text-align: right;
+}
+.player .player-options button {
+  margin-left: 10px;
+  background: #3498db;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.footer {
+  background: black;
+  color: white;
+}
+.footer .container {
+  padding: 3% 1% 2% 0;
+}
+.footer .container img {
+  padding-right: 1%;
+  padding-bottom: 2%;
+}
+.footer .container .finish {
+  text-align: center;
+}
+.footer .container a {
+  text-decoration: none;
+  color: white;
+}
+.footer .container div {
+  padding-bottom: 2%;
+}
+.footer .container button {
+  background: #3498db;
+  width: 35%;
 }
