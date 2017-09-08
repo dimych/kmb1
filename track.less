@@ -1,328 +1,278 @@
-@buttonsBlue: blue;
-@buttonsDarkBlue: darkblue;
-.label-B {
-    vertical-align: middle;
-    margin-right: 15px;
-    width: 40px;
-    height: 40px;
-}
-
-a {
-    color: white;
-    padding: 10px 15px 10px 0px;
-    text-align: right;
-}
-
-body {
+.jumbotron {
+    padding: 0px;
     margin: 0px;
-    width: 1140px auto;
 }
-
-header {
-    width: 1140px auto;
-    padding: 0px 385px;
-    background: black;
+body {
+    line-height: 1;
+}
+nav { 
+    background: #191919;
     color: white;
-    height: 80px;
-    .beatmakers-tv-header {
-        font-size: 100%;
-        width: 400px;
-        vertical-align: middle;
-        float: left;
-        padding-top: 20px;
+    .container {
+        padding: 0px;
     }
-    div {
-        display: inline-block;
-        vertical-align: middle;
+    .brand-and-logo {
+        .header-label-img-div {
+            padding: 20px 0px;
+        }
+        .header-label-text {
+            padding: 29px 0px 29px 5px;
+            font-size: 15px;
+        }
     }
     .header-links {
-        width: 550px;
-        float: left;
-        padding-top: 35px;
+        text-align: center;
+        padding: 30px 0px;
+        a {
+            padding: 0px 5px;
+            color: white;
+        }
     }
-    .cart-button {
-        text-align: right;
-        border: 0px;
-        cursor: pointer;
-        width: 65px;
-        height: 40px;
-        img {
-            vertical-align: middle;
+    .input-search-div {
+        padding: 20px 0px;
+        background: darkgray;
+        input {
+            width: 100%;
+            border: 0px;
             height: 40px;
-            float: left;
+            padding-left: 15px;
+            background: darkgray;
         }
-        .cart-logo-img {
-            height: 40px;
-            width: 30px;
-        }
-        .cash-on-account {
-            height: 40px;
-            width: 30px;
-            margin-right: 5px;
-            float: left;
-            vertical-align: middle;
-        }
+    }
+    .cart-balance-div {
+        font-size: 120%;
+        padding: 28px 0px 29px 20px;
     }
     .account-menu {
-        background: @buttonsBlue;
-        cursor: pointer;
-        width: 80px;
-        float: right;
+        img {
+            background: #2980b9;
+        }
     }
 }
-
 .clouds {
-    height: 202px;
-}
-.clouds img {
-    width: 100%;
-    height: 100%;
-}
-
-.player-with-cover {
-    width: 1140px auto;
-    padding: 0px 385px;
-    .cover {
-        width: 17%;
-        display: inline-block;
-        vertical-align: bottom;
-        height: 223px;
-    }
-    .cover img {
-        height: 223px;
+    position: relative;
+    z-index: 1;
+    img {
         width: 100%;
+        height: 200px;
+    }
+}
+.player-with-cover {
+    .container {
+        background: #f0f0f0;
+        padding: 0px;
+    }
+    position: relative;
+    z-index: 2;
+    margin-top: -70px;
+    hr {
+        border-color: #d6d6d6;
+        margin: 9px 0px 10px 0px;
+    }
+    .cover {
+        img { 
+            width: 100%;
+        }
     }
     .player {
-        display: inline-block;
-        background: lightgray;
-        width: 83%;
-        vertical-align: middle;
-        padding: 15px 0px;
+        height: 165px;
+        .container {
+            padding-right: 15px;
+        }
         .track-status {
+            padding-top: 10px;
             .chosen-track {
-                display: inline-block;
-                width: 49%;
-                vertical-align: middle;
-                padding-left: 2%;
-                padding-bottom: 20px;
+                height: 50px;
                 .status-of-track {
-                    color: @buttonsBlue;
+                    font-size: 17px;
+                    color: blue;
                 }
                 .name-of-the-song {
-                    font-size: 150%;
+                    padding-top: 10px;
+                    font-size: 23px;
+                    color : black;
                 }
             }
             .buttons-for-track {
-                width: 47%;
-                display: inline-block;
+                height: 50px;
+                text-align: top;
                 text-align: right;
-                padding-right: 2%;
                 button {
+                    margin-left: 5px;
+                    height: 100%;
+                    width: 50px;
                     border: 0px;
-                    background: @buttonsBlue;
-                    cursor: pointer;
-                    color: white;
-                    margin: 0px;
-                    padding: 10px;
+                    background: #2980b9;
                     vertical-align: middle;
-                    height: 45px;
                 }
-                img {
-                    height: 21px;
-                    width: 21px;
-                }
-                .add-to-card {
-                    padding: 10px 50px;
+                .add-to-card{
+                    margin-left: 5px;
+                    height: 100%;
+                    width: 250px;
+                    border: 0px;
+                    background: #3498db;
+                    color: white;
+                    font-size: 20px;
                 }
             }
         }
-    }   
-}
-
-
-.track-info {
-    div {
-        display: inline-block;
-        margin: 0px;
-    }
-    label {
-        display: block;
-        margin: 0px;
-        padding-top: 25px;
-    }
-    button {
-        border: black 1px solid;
-        color: @buttonsBlue;
-        padding: 10px 0px;
-    }
-    .genre-info {
-        padding-left: 2%;
-        width: 14%;
-    }
-    .mood-info {
-        width: 14%;
-    }
-    .tags-info {
-        width: 46%;
-    }
-    .info-about-track-button {
-        width: 120px;
-        margin: 15px 10px 15px 0px;
-    }
-    .special-deal {
-        width: 22%;
-        text-align: right;
-        padding-right: 2%;
-        button {
-            width: 170px;
-            margin: 15px 0px
+        .track-info {
+            height: 85px;
+            font-size: 15px;
+            background-image: url('assets/images/cart-img/visualisator-player.png');
+            .genre-info,
+            .mood-info,
+            .tags-info,
+            .special-deal {
+                height: 85px;
+            }
+            .info-tag-div {
+                padding: 10px 0px;
+            }
+            .info-about-track-button {
+                border: 2px solid #3080a3;
+                padding: 8px 0px;
+                width: 100px;
+                color: #5d9dc7;
+            }
+            .special-deal {
+                text-align: right;
+                .special-deal-button {
+                    border: 2px solid #3080a3;
+                    padding: 8px 0px;
+                    width: 180px;
+                    color: #5d9dc7;
+                }
+            }
         }
     }
 }
-
 .license {
-    width: 1140px auto;
-    padding: 0px 385px;
+    padding: 80px 0px;
+    background: #fefefe;
     .MP3-lease-basket {
-        margin: 80px 1%;
-        display: inline-block;
-        width: 15%;
+        text-align: center;
         .MP3-lease-inner {
-            display: inline-block;
-            background: lightgray;
-            text-align: center;
-            width: 100%;
+            background: #eeeeee;
             .MP3-lease {
-                display: block;
-                color: @buttonsDarkBlue;
-                padding: 15px 0px;
+                padding: 20px 0px;
+                color: #2980b9;
             }
             .price {
-                padding: 10px 0px;
-                font-size: 300%;
+                color: #0a0a0a;
+                font-size: 350%;
                 font-weight: bold;
             }
             .MP3-lease-special-deal {
-                color: @buttonsBlue;
-                padding: 15px 0px;
+                color: #3498db;
+                padding: 20px 0px;
             }
         }
         .MP3-lease-buttons {
+            color: white;
+            text-align: left;
             .full-licensing-ino {
-                background: @buttonsBlue;
+                border: 0px;
+                background: #3498db;
+                padding: 15px 0px;
                 width: 80%;
             }
             .add-MP3 {
-                background: @buttonsDarkBlue;
-                width: 20%;
-            }
-            button {
                 border: 0px;
-                padding: 15px;
-                color: white;
-                cursor: pointer;
+                background: #2980b9;
+                padding: 15px 0px;
+                width: 18%;
             }
         }
     }
 }
-
-
 .recomendations {
-    width: 1140px auto;
-    padding: 0px 385px;
-    background: @buttonsBlue;
-    color: white;
+    .container {
+        background: #3498db;
+        color: white;
+    }
     .more-beats-by {
-        display: inline-block;
-        width: 50%;
-        padding: 0px;
-        height: 290px;
-        vertical-align: top;
+        padding: 120px 0px;
         .more-beats-inner {
-            vertical-align: center;
-            padding: 110px 0px 10px 0px;
-            margin-left: 250px;
-            font-size: 200%;
-            font-weight: bold;
+            font-size: 150%;
         }
-        button {
+        .view-all {
             border: 0px;
-            background: @buttonsDarkBlue;
-            color: white;
-            padding: 10px 30px;
-            margin-left: 250px;
-            cursor: pointer;
+            background: #2980b9;
+            padding: 10px 50px;
         }
     }
     .examples {
-        width: 50%;
-        display: inline-block;
+        padding: 50px 0px 0px 15px;
         .other-beats {
-            display: inline-block;
-            width: 20%;
-            padding: 50px 0px;
             .beat-name {
                 font-weight: bold;
+                padding: 5px 0px;
+            }
+            .img-other-beats {
+                img {
+                    width: 100%;
+                    height: 150px;
+                }
             }
         }
     }
 }
-
-
-.row {
-    &:after {
-        width: 100%;
-        clear: both;
-        display: block;
-        content: '';
-    }
-}
-
 .footer {
-    width: 1140px auto;
-    padding: 0px 385px;
-    background: black;
-    color: white;
-    .beatmakers-tv-label-footer {
-        font-size: 150%;
-        float: top;
-        div {
-            float: left;
+    .container {
+        background: #111111;
+        color: white;
+        .beatmakers-tv-label-footer { 
+            padding: 100px 0px 50px 15px;
+            .footer-brand-image {
+                height: 100%;
+                margin-left: -30px;
+            }
+            .beatmakers-tv-footer {
+                margin-left: -30px;
+                font-size: 24px;
+                padding: 8px 0px;
+            }
         }
-        .beatmakers-tv-footer {
-            margin-top: 7px;
-        }
-    }
-    .footer-links {
-        .beatmakers-tv-and-profile-links {
-            float: left;
-            width: 30%;
+        .footer-links {
+            padding-bottom: 50px;
+            a {
+                color: white;
+            }
+            .beatmakers-tv-and-profile-links {
+                margin-left: -30px;
+                div {
+                    padding-bottom: 20px;
+                }
+                .my-profile {
+                    font-weight: bold;
+                }
+               
+            }
         }
         .support {
-            float: right;
-            div {
-                padding-bottom: 15px;
+            .support-name {
+                font-weight: bold;
+                padding-bottom: 20px;
+            }
+            .support-description {
+                padding-bottom: 20px;
             }
             button {
-                background: @buttonsBlue;
-                color: white;
+                background: #3498db;
                 border: 0px;
-                padding: 10px 20px;
-                cursor: pointer;
+                font-weight: bold;
+                padding: 5px 10px;
             }
         }
     }
-    .all-rights {
-        padding-top: 100px;
-        text-align: center;
-    }
 }
-
-
-
-
-
-
+.all-rights {
+    background: #0c0c0c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
 
 
 

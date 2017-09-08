@@ -1,294 +1,258 @@
-.label-B {
-  vertical-align: middle;
-  margin-right: 15px;
-  width: 40px;
-  height: 40px;
-}
-a {
-  color: white;
-  padding: 10px 15px 10px 0px;
-  text-align: right;
+.jumbotron {
+  padding: 0px;
+  margin: 0px;
 }
 body {
-  margin: 0px;
-  width: 1140px auto;
+  line-height: 1;
 }
-header {
-  width: 1140px auto;
-  padding: 0px 385px;
-  background: black;
+nav {
+  background: #191919;
   color: white;
-  height: 80px;
 }
-header .beatmakers-tv-header {
-  font-size: 100%;
-  width: 400px;
-  vertical-align: middle;
-  float: left;
-  padding-top: 20px;
+nav .container {
+  padding: 0px;
 }
-header div {
-  display: inline-block;
-  vertical-align: middle;
+nav .brand-and-logo .header-label-img-div {
+  padding: 20px 0px;
 }
-header .header-links {
-  width: 550px;
-  float: left;
-  padding-top: 35px;
+nav .brand-and-logo .header-label-text {
+  padding: 29px 0px 29px 5px;
+  font-size: 15px;
 }
-header .cart-button {
-  text-align: right;
+nav .header-links {
+  text-align: center;
+  padding: 30px 0px;
+}
+nav .header-links a {
+  padding: 0px 5px;
+  color: white;
+}
+nav .input-search-div {
+  padding: 20px 0px;
+  background: darkgray;
+}
+nav .input-search-div input {
+  width: 100%;
   border: 0px;
-  cursor: pointer;
-  width: 65px;
   height: 40px;
+  padding-left: 15px;
+  background: darkgray;
 }
-header .cart-button img {
-  vertical-align: middle;
-  height: 40px;
-  float: left;
+nav .cart-balance-div {
+  font-size: 120%;
+  padding: 28px 0px 29px 20px;
 }
-header .cart-button .cart-logo-img {
-  height: 40px;
-  width: 30px;
-}
-header .cart-button .cash-on-account {
-  height: 40px;
-  width: 30px;
-  margin-right: 5px;
-  float: left;
-  vertical-align: middle;
-}
-header .account-menu {
-  background: blue;
-  cursor: pointer;
-  width: 80px;
-  float: right;
+nav .account-menu img {
+  background: #2980b9;
 }
 .clouds {
-  height: 202px;
+  position: relative;
+  z-index: 1;
 }
 .clouds img {
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 .player-with-cover {
-  width: 1140px auto;
-  padding: 0px 385px;
+  position: relative;
+  z-index: 2;
+  margin-top: -70px;
 }
-.player-with-cover .cover {
-  width: 17%;
-  display: inline-block;
-  vertical-align: bottom;
-  height: 223px;
+.player-with-cover .container {
+  background: #f0f0f0;
+  padding: 0px;
+}
+.player-with-cover hr {
+  border-color: #d6d6d6;
+  margin: 9px 0px 10px 0px;
 }
 .player-with-cover .cover img {
-  height: 223px;
   width: 100%;
 }
 .player-with-cover .player {
-  display: inline-block;
-  background: lightgray;
-  width: 83%;
-  vertical-align: middle;
-  padding: 15px 0px;
+  height: 165px;
+}
+.player-with-cover .player .container {
+  padding-right: 15px;
+}
+.player-with-cover .player .track-status {
+  padding-top: 10px;
 }
 .player-with-cover .player .track-status .chosen-track {
-  display: inline-block;
-  width: 49%;
-  vertical-align: middle;
-  padding-left: 2%;
-  padding-bottom: 20px;
+  height: 50px;
 }
 .player-with-cover .player .track-status .chosen-track .status-of-track {
+  font-size: 17px;
   color: blue;
 }
 .player-with-cover .player .track-status .chosen-track .name-of-the-song {
-  font-size: 150%;
+  padding-top: 10px;
+  font-size: 23px;
+  color: black;
 }
 .player-with-cover .player .track-status .buttons-for-track {
-  width: 47%;
-  display: inline-block;
+  height: 50px;
+  text-align: top;
   text-align: right;
-  padding-right: 2%;
 }
 .player-with-cover .player .track-status .buttons-for-track button {
+  margin-left: 5px;
+  height: 100%;
+  width: 50px;
   border: 0px;
-  background: blue;
-  cursor: pointer;
-  color: white;
-  margin: 0px;
-  padding: 10px;
+  background: #2980b9;
   vertical-align: middle;
-  height: 45px;
-}
-.player-with-cover .player .track-status .buttons-for-track img {
-  height: 21px;
-  width: 21px;
 }
 .player-with-cover .player .track-status .buttons-for-track .add-to-card {
-  padding: 10px 50px;
+  margin-left: 5px;
+  height: 100%;
+  width: 250px;
+  border: 0px;
+  background: #3498db;
+  color: white;
+  font-size: 20px;
 }
-.track-info div {
-  display: inline-block;
-  margin: 0px;
+.player-with-cover .player .track-info {
+  height: 85px;
+  font-size: 15px;
+  background-image: url('assets/images/cart-img/visualisator-player.png');
 }
-.track-info label {
-  display: block;
-  margin: 0px;
-  padding-top: 25px;
+.player-with-cover .player .track-info .genre-info,
+.player-with-cover .player .track-info .mood-info,
+.player-with-cover .player .track-info .tags-info,
+.player-with-cover .player .track-info .special-deal {
+  height: 85px;
 }
-.track-info button {
-  border: black 1px solid;
-  color: blue;
+.player-with-cover .player .track-info .info-tag-div {
   padding: 10px 0px;
 }
-.track-info .genre-info {
-  padding-left: 2%;
-  width: 14%;
+.player-with-cover .player .track-info .info-about-track-button {
+  border: 2px solid #3080a3;
+  padding: 8px 0px;
+  width: 100px;
+  color: #5d9dc7;
 }
-.track-info .mood-info {
-  width: 14%;
-}
-.track-info .tags-info {
-  width: 46%;
-}
-.track-info .info-about-track-button {
-  width: 120px;
-  margin: 15px 10px 15px 0px;
-}
-.track-info .special-deal {
-  width: 22%;
+.player-with-cover .player .track-info .special-deal {
   text-align: right;
-  padding-right: 2%;
 }
-.track-info .special-deal button {
-  width: 170px;
-  margin: 15px 0px;
+.player-with-cover .player .track-info .special-deal .special-deal-button {
+  border: 2px solid #3080a3;
+  padding: 8px 0px;
+  width: 180px;
+  color: #5d9dc7;
 }
 .license {
-  width: 1140px auto;
-  padding: 0px 385px;
+  padding: 80px 0px;
+  background: #fefefe;
 }
 .license .MP3-lease-basket {
-  margin: 80px 1%;
-  display: inline-block;
-  width: 15%;
+  text-align: center;
 }
 .license .MP3-lease-basket .MP3-lease-inner {
-  display: inline-block;
-  background: lightgray;
-  text-align: center;
-  width: 100%;
+  background: #eeeeee;
 }
 .license .MP3-lease-basket .MP3-lease-inner .MP3-lease {
-  display: block;
-  color: darkblue;
-  padding: 15px 0px;
+  padding: 20px 0px;
+  color: #2980b9;
 }
 .license .MP3-lease-basket .MP3-lease-inner .price {
-  padding: 10px 0px;
-  font-size: 300%;
+  color: #0a0a0a;
+  font-size: 350%;
   font-weight: bold;
 }
 .license .MP3-lease-basket .MP3-lease-inner .MP3-lease-special-deal {
-  color: blue;
-  padding: 15px 0px;
+  color: #3498db;
+  padding: 20px 0px;
+}
+.license .MP3-lease-basket .MP3-lease-buttons {
+  color: white;
+  text-align: left;
 }
 .license .MP3-lease-basket .MP3-lease-buttons .full-licensing-ino {
-  background: blue;
+  border: 0px;
+  background: #3498db;
+  padding: 15px 0px;
   width: 80%;
 }
 .license .MP3-lease-basket .MP3-lease-buttons .add-MP3 {
-  background: darkblue;
-  width: 20%;
-}
-.license .MP3-lease-basket .MP3-lease-buttons button {
   border: 0px;
-  padding: 15px;
-  color: white;
-  cursor: pointer;
+  background: #2980b9;
+  padding: 15px 0px;
+  width: 18%;
 }
-.recomendations {
-  width: 1140px auto;
-  padding: 0px 385px;
-  background: blue;
+.recomendations .container {
+  background: #3498db;
   color: white;
 }
 .recomendations .more-beats-by {
-  display: inline-block;
-  width: 50%;
-  padding: 0px;
-  height: 290px;
-  vertical-align: top;
+  padding: 120px 0px;
 }
 .recomendations .more-beats-by .more-beats-inner {
-  vertical-align: center;
-  padding: 110px 0px 10px 0px;
-  margin-left: 250px;
-  font-size: 200%;
-  font-weight: bold;
+  font-size: 150%;
 }
-.recomendations .more-beats-by button {
+.recomendations .more-beats-by .view-all {
   border: 0px;
-  background: darkblue;
-  color: white;
-  padding: 10px 30px;
-  margin-left: 250px;
-  cursor: pointer;
+  background: #2980b9;
+  padding: 10px 50px;
 }
 .recomendations .examples {
-  width: 50%;
-  display: inline-block;
-}
-.recomendations .examples .other-beats {
-  display: inline-block;
-  width: 20%;
-  padding: 50px 0px;
+  padding: 50px 0px 0px 15px;
 }
 .recomendations .examples .other-beats .beat-name {
   font-weight: bold;
+  padding: 5px 0px;
 }
-.row:after {
+.recomendations .examples .other-beats .img-other-beats img {
   width: 100%;
-  clear: both;
-  display: block;
-  content: '';
+  height: 150px;
 }
-.footer {
-  width: 1140px auto;
-  padding: 0px 385px;
-  background: black;
+.footer .container {
+  background: #111111;
   color: white;
 }
-.footer .beatmakers-tv-label-footer {
-  font-size: 150%;
-  float: top;
+.footer .container .beatmakers-tv-label-footer {
+  padding: 100px 0px 50px 15px;
 }
-.footer .beatmakers-tv-label-footer div {
-  float: left;
+.footer .container .beatmakers-tv-label-footer .footer-brand-image {
+  height: 100%;
+  margin-left: -30px;
 }
-.footer .beatmakers-tv-label-footer .beatmakers-tv-footer {
-  margin-top: 7px;
+.footer .container .beatmakers-tv-label-footer .beatmakers-tv-footer {
+  margin-left: -30px;
+  font-size: 24px;
+  padding: 8px 0px;
 }
-.footer .footer-links .beatmakers-tv-and-profile-links {
-  float: left;
-  width: 30%;
+.footer .container .footer-links {
+  padding-bottom: 50px;
 }
-.footer .footer-links .support {
-  float: right;
-}
-.footer .footer-links .support div {
-  padding-bottom: 15px;
-}
-.footer .footer-links .support button {
-  background: blue;
+.footer .container .footer-links a {
   color: white;
+}
+.footer .container .footer-links .beatmakers-tv-and-profile-links {
+  margin-left: -30px;
+}
+.footer .container .footer-links .beatmakers-tv-and-profile-links div {
+  padding-bottom: 20px;
+}
+.footer .container .footer-links .beatmakers-tv-and-profile-links .my-profile {
+  font-weight: bold;
+}
+.footer .container .support .support-name {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.footer .container .support .support-description {
+  padding-bottom: 20px;
+}
+.footer .container .support button {
+  background: #3498db;
   border: 0px;
-  padding: 10px 20px;
-  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 10px;
 }
-.footer .all-rights {
-  padding-top: 100px;
+.all-rights {
+  background: #0c0c0c;
+  color: white;
   text-align: center;
+  padding: 30px;
 }
