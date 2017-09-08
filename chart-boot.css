@@ -38,3 +38,89 @@
 .header .header-block .user-menu {
   padding-top: 15px;
 }
+.editors-choice-main {
+  background-image: url(assets/images/images-chart/ed.png);
+  color: white;
+}
+.editors-choice-main .editors-choice-title {
+  padding-top: 100px;
+}
+.editors-choice-main .editors-choice-block {
+  padding-bottom: 100px;
+  text-align: center;
+}
+.editors-choice-main .editors-choice-block .editors-choice-icon {
+  width: 165px;
+  height: 165px;
+  background: black;
+  margin: 20px 30px 0px 0px;
+}
+.editors-choice-main .editors-choice-block .editors-choice-icon-last {
+  width: 165px;
+  height: 165px;
+  background: black;
+  margin: 20px 0px 0px 0px;
+}
+.editors-choice-main .editors-choice-block .song {
+  color: #3498db;
+  text-align: center;
+}
+.sorting-block {
+  color: white;
+  background: #212121;
+}
+.sorting-block select {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.1px solid white;
+  color: #EAE1E1;
+  padding: 8px;
+  margin: 15px 0px 15px 0px;
+}
+.sorting-block .top select {
+  width: 250px;
+}
+.sorting-block .sort-items {
+  text-align: right;
+}
+.sorting-block .sort-items select {
+  width: 200px;
+}
+.chart-main {
+  margin-top: 5%;
+}
+.chart-main .track-item-menu {
+  background: #f0f0f0;
+  margin-bottom: 10px;
+}
+.chart-main .track-item-menu .number-track {
+  background: #e74c3c;
+  height: 80px;
+  text-align: center;
+}
+.chart-main .track-item-menu .icon-track {
+  background-image: url(assets/images/images-chart/trackicon.png);
+  height: 80px;
+}
+.chart-main .track-item-menu .icon-track img {
+  transform: translate(40%, 30%);
+}
+.chart-main .track-item-menu .name-track {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.chart-main .track-item-menu .name-track .song {
+  color: #3498db;
+}
+.spotlight-artist-main {
+  background: #3498db;
+  color: white;
+}
+.spotlight-artist-main .spotlight-icon {
+  background: #060505;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 30px;
+}
