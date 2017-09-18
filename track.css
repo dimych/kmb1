@@ -1,49 +1,53 @@
-.jumbotron {
-  padding: 0px;
-  margin: 0px;
+.all-line {
+  background-size: 100%, 100%;
 }
 body {
   line-height: 1;
 }
-nav {
+.header-div {
   background: #191919;
+}
+.header-div nav {
   color: white;
 }
-nav .container {
+.header-div nav .container {
   padding: 0px;
 }
-nav .brand-and-logo .header-label-img-div {
+.header-div nav .brand-and-logo .header-label-img-div {
   padding: 20px 0px;
 }
-nav .brand-and-logo .header-label-text {
+.header-div nav .brand-and-logo .header-label-text {
   padding: 29px 0px 29px 5px;
   font-size: 15px;
 }
-nav .header-links {
+.header-div nav .header-links {
   text-align: center;
   padding: 30px 0px;
 }
-nav .header-links a {
+.header-div nav .header-links a {
   padding: 0px 5px;
   color: white;
 }
-nav .input-search-div {
+.header-div nav .input-search-div {
   padding: 20px 0px;
   background: darkgray;
 }
-nav .input-search-div input {
+.header-div nav .input-search-div input {
   width: 100%;
   border: 0px;
   height: 40px;
   padding-left: 15px;
   background: darkgray;
 }
-nav .cart-balance-div {
+.header-div nav .cart-balance-div {
   font-size: 120%;
   padding: 28px 0px 29px 20px;
 }
-nav .account-menu img {
+.header-div nav .account-menu img {
   background: #2980b9;
+}
+.clouds-div {
+  background-image: url('assets/images/cart-img/clouds.png');
 }
 .clouds {
   position: relative;
@@ -180,71 +184,71 @@ nav .account-menu img {
   padding: 15px 0px;
   width: 18%;
 }
-.recomendations .container {
+.recomendations-div {
   background: #3498db;
+}
+.recomendations-div .recomendations .container {
   color: white;
 }
-.recomendations .more-beats-by {
+.recomendations-div .recomendations .more-beats-by {
   padding: 120px 0px;
 }
-.recomendations .more-beats-by .more-beats-inner {
+.recomendations-div .recomendations .more-beats-by .more-beats-inner {
   font-size: 150%;
 }
-.recomendations .more-beats-by .view-all {
+.recomendations-div .recomendations .more-beats-by .view-all {
   border: 0px;
   background: #2980b9;
   padding: 10px 50px;
 }
-.recomendations .examples {
+.recomendations-div .recomendations .examples {
   padding: 50px 0px 0px 15px;
 }
-.recomendations .examples .other-beats .beat-name {
+.recomendations-div .recomendations .examples .other-beats .beat-name {
   font-weight: bold;
   padding: 5px 0px;
 }
-.recomendations .examples .other-beats .img-other-beats img {
+.recomendations-div .recomendations .examples .other-beats .img-other-beats img {
   width: 100%;
   height: 150px;
 }
-.footer .container {
+.footer-div {
   background: #111111;
+}
+.footer-div .footer .container {
   color: white;
 }
-.footer .container .beatmakers-tv-label-footer {
+.footer-div .footer .container .beatmakers-tv-label-footer {
   padding: 100px 0px 50px 15px;
 }
-.footer .container .beatmakers-tv-label-footer .footer-brand-image {
+.footer-div .footer .container .beatmakers-tv-label-footer .footer-brand-image {
   height: 100%;
-  margin-left: -30px;
 }
-.footer .container .beatmakers-tv-label-footer .beatmakers-tv-footer {
+.footer-div .footer .container .beatmakers-tv-label-footer .beatmakers-tv-footer {
   margin-left: -30px;
   font-size: 24px;
   padding: 8px 0px;
 }
-.footer .container .footer-links {
+.footer-div .footer .container .footer-links {
   padding-bottom: 50px;
 }
-.footer .container .footer-links a {
+.footer-div .footer .container .footer-links a {
   color: white;
 }
-.footer .container .footer-links .beatmakers-tv-and-profile-links {
-  margin-left: -30px;
-}
-.footer .container .footer-links .beatmakers-tv-and-profile-links div {
+.footer-div .footer .container .footer-links .beatmakers-tv-and-profile-links div {
   padding-bottom: 20px;
 }
-.footer .container .footer-links .beatmakers-tv-and-profile-links .my-profile {
+.footer-div .footer .container .footer-links .beatmakers-tv-and-profile-links .my-profile {
   font-weight: bold;
 }
-.footer .container .support .support-name {
+.footer-div .footer .container .support .support-name {
   font-weight: bold;
   padding-bottom: 20px;
 }
-.footer .container .support .support-description {
+.footer-div .footer .container .support .support-description {
   padding-bottom: 20px;
 }
-.footer .container .support button {
+.footer-div .footer .container .support button {
   background: #3498db;
   border: 0px;
   font-weight: bold;
