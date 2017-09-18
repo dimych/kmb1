@@ -3,76 +3,108 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Profile</title>
 </head>
 
 <body>
-    <div class='header jumbotron pouring'>
-        <header class='container'>
-            <div class='row'>
-                <div class='header-logo col-md-3'>
-                    <img src='assets/images/MyProfileImages/logo3.png'>
+
+    <div class='pouring'>
+        <nav class="navbar">
+            <div class="container">
+                <div class='row'>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src='assets/images/MyProfileImages/Logo3.png'></a>
                 </div>
-                <div class='header-list-menu col-md-5'>
-                    <a href=''>HOME</a>
-                    <a href=''>TOP CHARTS</a>
-                    <a href=''>TOP BEATMAKERS</a>
-                    <a href=''>CONTACT</a>
-                </div>
-                <div class='header-search col-md-2'>
-                    <input type='search' placeholder='Search' />
-                </div>
-                <div class='cart col-md-1'>
-                    <input class='cash' value='0' type='text'>
-                </div>
-                <div class='extra-menu col-md-1'>
-                    <!-- <div class='setting-profile-hide-menu'>
-                    <ul>
-                        <li><a href=''>My feed</a></li>
-                        <li><a href=''>Purchased beats</a></li>
-                        <li><a href=''>Edit profile</a></li>
-                        <li><a href=''>Log Out</a></li>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class='header-link-menu navbar-right nav navbar-nav'>
+                        <li><a class='indentation' href=''>HOME</a></li>
+                        <li><a class='indentation' href=''>TOP CHARTS</a></li>
+                        <li><a class='indentation' href=''>TOP BEATMAKERS</a></li>
+                        <li><a class='indentation' href=''>CONTACT</a></li>
+
+                        <li>
+                            <form class="navbar-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </form>
+                        </li>
+                        <li><input class='cash' value='0' type='text'></li>
+                        <li><a href='#' class='cart-logo'></a></li>
+                    
+                    <li class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class='ava-drop'></a>
+                            <a href="#" class="drop-menu dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class='open-menu-arrow'><a href="#">My feed</a></li>
+                                <li><a href="#">My favorites</a></li>
+                                <li><a href="#">Purchased beats</a></li>
+                                <li><a href="#">Edit profile</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </li>
                     </ul>
-                </div> -->
+                </div>
                 </div>
             </div>
-        </header>
+        </nav>
     </div>
-
-    <div class='user-about jumbotron'>
-        <img class='col-md-12' src='assets/images/MyProfileImages/fon2.png'>
-        <div class='container'>
-            <div class='row'>
+ 
+    <div class='user-about'>
+        <div class='user-about-info container'>
+            <!-- <div class='row'>
                 <div class='user-ava col-md-2'>
+                    <img src='assets/images/MyProfileImages/mainLogo.png'>
                 </div>
                 <div class='user-name-email col-md-3'>
                     <h1>John Gold</h1>
                     <p>whoisjohngolt@mail.com</p>
                 </div>
-            </div>
+            </div> -->
         </div>
-    </div>
-
-    <div class='profile-tabs jumbotron'>
+    </div> 
+   
+    <div class='profile-tabs'>
         <div class='container'>
             <div class='row'>
-                <div class='col-md-2'>
+            <div class='col-md-2'>
+                <span>
                     <a href=''>My feed</a>
-                </div>
-                <div class='col-md-2'>
+                </span>
+            </div>
+            <div class='col-md-2'>
+                <span>
                     <a href=''>My favorites</a>
-                </div>
-                <div class='col-md-2'>
+                </span>
+            </div>
+            <div class='col-md-2'>
+                <span>
                     <a href=''>Purchased beats</a>
-                </div>
-                <div class='col-md-2'>
+                </span>
+            </div>
+            <div class='col-md-2'>
+                <span>
                     <a href=''>Edit profile</a>
-                </div>
+                </span>
+            </div>
             </div>
         </div>
     </div>
 
-    <div class='favorites jumbotron'>
+    <div class='favorites'>
         <div class='clon container'>
             <div class='song-menu row'>
                 <div class='song-img col-md-2'>
@@ -86,10 +118,10 @@
                                     <p>anoserxllfe</p>
                                     <h4>Never Be the Same</h4>
                                 </div>
-                                <div class='dovload-btn col-md-4'>
+                                <div class='download-btn col-md-4'>
                                     <div class='row'>
                                         <div class='col-md-2'>
-                                            <button class='dovload'>
+                                            <button class='download'>
                                             </button>
                                         </div>
                                         <div class='col-md-2'>
@@ -97,7 +129,7 @@
                                             </button>
                                         </div>
                                         <div class='col-md-8'>
-                                            <button class='buy-song'> Add to card
+                                            <button class='buy-song' value='19.99'> Add to card $ 19.99
                                             </button>
                                         </div>
                                     </div>
@@ -108,23 +140,23 @@
                             <div class='row'>
                                 <div class='col-md-2'>
                                     <p> Genre </p>
-                                    <button>RAP</button>
+                                    <button class='textstyle'>RAP</button>
                                 </div>
                                 <div class='col-md-2'>
                                     <p> Mood </p>
-                                    <button>SMOOTH</button>
+                                    <button class='textstyle'>SMOOTH</button>
                                 </div>
                                 <div class='col-md-8'>
                                     <p> Tags </p>
                                     <div class='hash-tag row'>
                                         <div class='col-md-2'>
-                                            <button>#THEGAME</button>
+                                            <button class='textstyle'>#THEGAME</button>
                                         </div>
                                         <div class='col-md-2'>
-                                            <button>#REDALBUM</button>
+                                            <button class='textstyle'>#REDALBUM</button>
                                         </div>
                                         <div class='col-md-2'>
-                                            <button>#THESITY</button>
+                                            <button class='textstyle'>#THESITY</button>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +168,7 @@
         </div>
     </div>
 
-    <div class='footer jumbotron'>
+    <div class='footer'>
         <footer class='container'>
             <div class='footer-logo row'>
                 <img src='assets/images/MyProfileImages/Logo-suite2.png'>
@@ -185,7 +217,7 @@
         </footer>
     </div>
 
-    <div class='end-suite jumbotron'>
+    <div class='end-suite'>
         <div class='container'>
             <div class='end'>
                 beatmakers.tv.2017.All rights reserved.
@@ -194,19 +226,104 @@
     </div>
 
 
+    <script id='user-info' type='text/template'>
+         <div class='row'>
+                <div class='user-ava col-md-2'>
+                    <img src='{{:src}}'>
+                </div>
+                <div class='user-name-email col-md-3'>
+                    <h1>{{:name}}{{:surname}}</h1>
+                    <p>{{:email}}</p>
+                </div>
+            </div>
+    </script>   
 
+    <script id="track" type="text/template">
+        <div class='song-menu row'>
+                <div class='song-img col-md-2'>
+                    <img src='{{:src}}'>
+                </div>
+                <div class='col-md-10'>
+                    <div class='row'>
+                        <div class='col-md-12'>
+                            <div class='row'>
+                                <div class='song-name col-md-8'>
+                                    <p>{{:author}}</p>
+                                    <h4>{{:name}}</h4>
+                                </div>
+                                <div class='download-btn col-md-4'>
+                                    <div class='row'>
+                                        <div class='col-md-2'>
+                                            <button class='download'>
+                                            </button>
+                                        </div>
+                                        <div class='col-md-2'>
+                                            <button class='favorit'>
+                                            </button>
+                                        </div>
+                                        <div class='col-md-8'>
+                                            <button class='buy-song' value='{{:cost}}'> Add to card $ {{:cost}}
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='music-style col-md-12'>
+                            <div class='row'>
+                                <div class='col-md-2'>
+                                    <p> Genre </p>
+                                    <button class='textstyle'>{{:genre}}</button>
+                                </div>
+                                <div class='col-md-2'>
+                                    <p> Mood </p>
+                                    <button class='textstyle'>{{:mood}}</button>
+                                </div>
+                                <div class='col-md-8'>
+                                    <p> Tags </p>
+                                    <div class='hash-tag row'>
+                                        <div class='col-md-2'>
+                                            <button class='textstyle'>{{:tags1}}</button>
+                                        </div>
+                                        <div class='col-md-2'>
+                                            <button class='textstyle'>{{:tags2}}</button>
+                                        </div>
+                                        <div class='col-md-2'>
+                                            <button class='textstyle'>{{:tags3}}</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
         crossorigin="anonymous">
+    </script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  
+
+    <script src='jsrender.js'></script> 
 
     <script src='myProfileBootstrap.js'></script>
 
     <link rel='stylesheet' href='myProfileBootstrapFixed.css'>
 
     <link rel='stylesheet' href='myProfileBootstrap.css'>
+
+
+    
+
 
 </body>
 

@@ -1,24 +1,29 @@
-.pouring {
+.indentation {
+  margin-top: 15px;
+}
+.pouring .navbar {
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
   background: #191919;
 }
-.pouring header {
-  height: 80px;
+.pouring .navbar .container {
+  border: none;
   background: #191919;
   color: white;
 }
-.pouring header .header-logo {
-  margin-top: 20px;
-}
-.pouring header .header-list-menu {
-  margin-top: 30px;
-  text-align: right;
-}
-.pouring header .header-list-menu a {
+.pouring .navbar .container a {
   color: white;
-  padding-right: 2%;
   text-decoration: none;
+  padding-right: 0;
 }
-.pouring header .header-search input {
+.pouring .navbar .container .navbar-brand {
+  margin-top: 5px;
+}
+.pouring .navbar .container .navbar-form {
+  margin: 0px;
+}
+.pouring .navbar .container .navbar-form input {
   background: #272727;
   background-image: url(assets/images/MyProfileImages/Linza.png);
   background-repeat: no-repeat;
@@ -27,40 +32,91 @@
   height: 80px;
   border: none;
 }
-.pouring header .header-search input:focus {
+.pouring .navbar .container .navbar-form input:focus {
   background-image: none;
 }
-.pouring header .cart {
-  background-image: url(assets/images/MyProfileImages/cartmini.png);
-  background-repeat: no-repeat;
-  background-position: 40px 25px;
-}
-.pouring header .cart input {
+.pouring .navbar .container .cash {
+  margin-left: 0px;
   text-align: center;
   background: #191919;
   width: 40px;
   border: none;
   color: white;
-  margin-top: 25px;
+  margin-top: 30px;
 }
-.pouring header .extra-menu {
+.pouring .navbar .container .cart-logo {
+  margin-top: 30px;
+  margin-right: 15px;
+  padding-right: 15px;
+  background-image: url(assets/images/MyProfileImages/cartmini.png);
+  background-repeat: no-repeat;
+}
+.nav .dropdown .ava-drop {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
   background-image: url(assets/images/MyProfileImages/userpick1.png);
   background-repeat: no-repeat;
-  background-position: 40px 15px;
+  background-position: 5px 5px;
 }
-.user-about img {
-  height: 300px;
+.nav .dropdown .drop-menu {
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: #191919;
+}
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+.dropdown-menu > li > a:hover {
+  background: none;
+}
+.dropdown-menu {
+  color: white;
+  margin-top: 10px !important;
+  border: none;
+  padding: 0;
+}
+.dropdown-menu .open-menu-arrow {
+  position: relative;
+}
+.dropdown-menu .open-menu-arrow::after {
+  content: '';
   position: absolute;
+  right: 20px;
+  bottom: 30px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #2980b9;
 }
-.user-about .row {
-  height: 300px;
+.dropdown-menu li {
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
-.user-about .row .user-ava {
-  background-image: url(assets/images/MyProfileImages/mainLogo.png);
+.dropdown-menu li:nth-child(odd) {
+  background-color: #2980b9;
+}
+.dropdown-menu li:nth-child(even) {
+  background-color: #2d88c4;
+}
+.user-about {
+  background-image: url(assets/images/MyProfileImages/fon2.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.user-about .container {
+  padding-bottom: 75px;
+}
+.user-about .container .user-ava {
   margin-top: 75px;
 }
-.user-about .row .user-name-email {
+.user-about .container .user-name-email {
   padding-left: 45px;
   height: 80px;
   color: white;
@@ -70,18 +126,22 @@
 .profile-tabs {
   background: #3498db;
   text-align: left;
-  height: 60px;
 }
-.profile-tabs .row div {
-  height: 40px;
-  margin-top: 15px;
+.profile-tabs .container .row div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
 }
-.profile-tabs .row div a {
+.profile-tabs .container .row div span {
+  padding-top: 30px;
+  padding-bottom: 26px;
+}
+.profile-tabs .container .row div span a {
   color: white;
   text-decoration: none;
 }
-.profile-tabs .row div a:hover {
-  border-bottom: solid 2px black;
+.profile-tabs .container .row div span:hover {
+  border-bottom: solid 4px black;
 }
 .favorites {
   background-color: white;
@@ -96,10 +156,10 @@
   color: #3498db;
   margin-bottom: 0;
 }
-.favorites .song-menu .dovload-btn {
-  padding-left: 65px;
+.favorites .song-menu .download-btn {
+  padding-left: 45px;
 }
-.favorites .song-menu .dovload {
+.favorites .song-menu .download {
   margin-top: 20px;
   border: none;
   width: 42px;
@@ -121,10 +181,10 @@
   background-position: 10px 10px;
 }
 .favorites .song-menu .buy-song {
+  text-align: center;
   margin-top: 20px;
   border: none;
   color: white;
-  width: 142px;
   height: 42px;
   background-color: #3498db;
 }
@@ -139,8 +199,8 @@
   background-color: #f0f0f0;
   color: #2980b9;
 }
-.favorites .music-style .hash-tag {
-  margin-left: 0px;
+.favorites .music-style .hash-tag .col-md-2 {
+  margin-right: 10px;
 }
 .footer {
   background-color: #111111;
@@ -177,7 +237,7 @@
   height: 30px;
   font-weight: bold;
 }
-.textbold {
+.textstyle {
   font-weight: bold;
 }
 .end-suite {
@@ -188,4 +248,34 @@
   color: white;
   text-align: center;
   height: 100px;
+}
+@media only screen and (max-width: 1199px) {
+  .navbar-brand img {
+    width: 200px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 614px) {
+  .navbar-brand {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 491px) {
+  .navbar-brand {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 392px) {
+  .navbar-brand {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 }
