@@ -1,16 +1,11 @@
-.header {
-    background: black;
+  .header {
+
     color: white;
     a {
         color: white;
         text-decoration: none;
         padding: 3%;
     }
-    .header-block {
-        
-        .logo {
-            padding-top: 2%;
-        }
         .options {
             color: white;
             text-align: right;
@@ -18,7 +13,6 @@
             padding-right: 3%;
         }
         .seach {
-            
             background: #272727;
             text-align: left;
             height: 80px;
@@ -41,7 +35,10 @@
         .user-menu {
             padding-top: 2.5%;
         }
-    }
+        .user-menu :hover{
+            background: #3497DB;
+        }
+    
 }
 
 .editors-choice-main {
@@ -51,26 +48,25 @@
         padding-top: 8%;
     }
     .editors-choice-block {
-        padding-bottom: 8%;
+        padding-bottom: 7%;
         text-align: center;
-        .editors-choice-icon {
+        .editors-choice-icon img {
             width: 165px;
             height: 165px;
             background: black;
-            margin: 15% 3% 0% 0%;
+            margin: 14% 3% 0% 0%;
         }
         .editors-choice-icon:last-child {
-            margin: 15% 0% 0% 0%;
+            margin: 14% 0% 0% 0%;
         }
         a {
-            height: 100%;
             text-decoration: none;
         }
         .singer a {
             color: white;
         }
         .song a {
-            color: #3498db;
+            color: #3497DB;
             text-align: center;
         }
     }
@@ -82,7 +78,7 @@
     select {
         background-color: rgba(255, 255, 255, 0);
         border: 0.1px solid white;
-        color: #EAE1E1;       
+        color: #EAE1E1;
     }
     .top {
         select {
@@ -109,24 +105,30 @@
         margin-bottom: 10px;
         .number-track {
             background: #e74c3c;
+            font-weight: 700;
             height: 80px;
             text-align: center;
+            padding-top: 4%;
         }
         .icon-track {
-            background-image: url(assets/images/images-chart/trackicon.png);
-            height: 80px;
-            img {
-                transform: translate(+40%, 30%);
+            .avatar {
+                height: 80px;
+                width: 80px;
+            }
+            .img-play {
+                position: absolute;
+                z-index: 2;
+                transform: translate(-130%, 30%);
             }
         }
         .name-track {
-            padding-left: 20px;
             padding-top: 20px;
             a {
                 text-decoration: none;
             }
             .sing a {
                 color: black;
+                font-weight: 700;
             }
             .song a {
                 color: #3498db;
@@ -168,27 +170,115 @@
             text-align: center;
         }
     }
-    .loadmore {
-        text-align: center;
-        button {
-            background: #3498db;
-            color: white;
-            padding: 1% 10%;
+    .active-track-menu {
+        background: #f0f0f0;
+        .active-track-item {
+            
+            .number-track {
+                background: #e74c3c;
+                font-weight: 700;
+                height: 150px;
+                text-align: center;
+                padding-top: 30%;
+            }
+            .icon-track {
+                .avatar {
+                    height: 150px;
+                    width: 150px;
+                }
+                .img-play {
+                    position: absolute;
+                    z-index: 2;
+                    transform: translate(100%, -190%);
+                    
+            }
+        }
+        }
+        .active-track-info {
+            padding-top: 20px;
+            padding-left: 15px;
+            .track-name {
+                
+                a {
+                    text-decoration: none;
+                }
+                .sing a {
+                    color: black;
+                    font-weight: 700;
+                }
+                .song a {
+                    color: #3498db;
+                }
+            }
+            .active-track-options {
+                text-align: right;
+                padding-right: 15px;
+                
+                button {
+                    background: #3498db;
+                    color: white;
+                    padding: 2.5%;
+                    text-align: center;
+                    margin: 1%;
+                }
+                .add-to-card button{
+                    padding: 2.5% 13%;
+                }
+            }
+        }
+    }
+    .active-special-info {
+        font-weight: 700;
+        color: black;
+        .special-info{
+            color: #3498db;
+            border: solid 1px #3498db;
+            text-align: center;
+            padding: 5px;
+            margin-right: 3%;
+            margin-top: 5px;
+            width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
+        }
+        .deal{
+            text-align: right;
+            padding-right: 15px;
+            .special-info-deal{
+            text-overflow: clip; 
+            color: #3498db;
+            border: solid 1px #3498db;
+            text-align: center;
+            margin-top: 5px;
+            padding: 5px;
+           }
+            
         }
     }
 }
 
+
+
+.loadmore {
+    text-align: center;
+    button {
+        background: #3498db;
+        color: white;
+        padding: 1% 7%;
+        margin-bottom: 4%;
+    }
+}
 .spotlight-artist-main {
     background: #3498db;
     color: white;
     .spotlight-artist {
         .spotlight-title {
-            height: 100%;
             .title-sp {
-                margin-top: 50%;
+                margin-top: 25%;
             }
         }
-        .spotlight-icon {
+        .spotlight-icon img {
             background: #060505;
             width: 160px;
             height: 160px;
@@ -203,38 +293,69 @@
         }
     }
 }
-
 .player {
+    .progress-bar img {
+        position: absolute;
+        z-index: 2;
+        margin-top: -0.3%;
+    }
+
     .player-track {
-        .singer {
-            color: #3498db;
-            padding-top: 10.5%;
+        .avatar {
+            width: 100px;
+            height: 100px
+        }
+        .img-play {
+            position: absolute;
+            z-index: 2;
+            transform: translate(-150%, 50%);
+        }
+        .name-track {
+            padding-top: 20px;
+            a {
+                text-decoration: none;
+            }
+            .sing a {
+                color: black;
+                font-weight: 700;
+            }
+            .song a {
+                color: #3498db;
+            }
         }
     }
+
     .player-btn {
-        padding-top: 2.5%;
-        text-align: center;
         background: transparent;
         button {
             background: #f0f0f0;
         }
         .btn-play {
-            padding-top: -1%;
+            text-align: center;
+            padding-top: 5%;
+        }
+        .btn-prev {
+            text-align: right;
+            padding-top: 9%;
+        }
+        .btn-folow {
+            text-align: left;
+            padding-top: 9%;
         }
     }
+
     .player-options {
         padding-top: 2.5%;
         text-align: right;
         button {
-            margin-left: 10px;
             background: #3498db;
+            color: white;
             padding: 10px;
             text-align: center;
-            color: white;
+            margin: 1%;
         }
     }
 }
-
 .footer {
     background: black;
     color: white;

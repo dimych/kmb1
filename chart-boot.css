@@ -1,5 +1,4 @@
 .header {
-  background: black;
   color: white;
 }
 .header a {
@@ -7,37 +6,37 @@
   text-decoration: none;
   padding: 3%;
 }
-.header .header-block .logo {
-  padding-top: 2%;
-}
-.header .header-block .options {
+.header .options {
   color: white;
   text-align: right;
   padding-top: 4.5%;
   padding-right: 3%;
 }
-.header .header-block .seach {
+.header .seach {
   background: #272727;
   text-align: left;
   height: 80px;
   color: #3f3f3f;
   bottom: 0px;
 }
-.header .header-block .seach i {
+.header .seach i {
   padding-left: 5px;
   top: 30px;
 }
-.header .header-block .seach input {
+.header .seach input {
   background: transparent;
   position: absolute;
   top: 35%;
 }
-.header .header-block .cart {
+.header .cart {
   text-align: center;
   padding-top: 4.5%;
 }
-.header .header-block .user-menu {
+.header .user-menu {
   padding-top: 2.5%;
+}
+.header .user-menu :hover {
+  background: #3497DB;
 }
 .editors-choice-main {
   background-image: url(assets/images/images-chart/ed.png);
@@ -47,27 +46,26 @@
   padding-top: 8%;
 }
 .editors-choice-main .editors-choice-block {
-  padding-bottom: 8%;
+  padding-bottom: 7%;
   text-align: center;
 }
-.editors-choice-main .editors-choice-block .editors-choice-icon {
+.editors-choice-main .editors-choice-block .editors-choice-icon img {
   width: 165px;
   height: 165px;
   background: black;
-  margin: 15% 3% 0% 0%;
+  margin: 14% 3% 0% 0%;
 }
 .editors-choice-main .editors-choice-block .editors-choice-icon:last-child {
-  margin: 15% 0% 0% 0%;
+  margin: 14% 0% 0% 0%;
 }
 .editors-choice-main .editors-choice-block a {
-  height: 100%;
   text-decoration: none;
 }
 .editors-choice-main .editors-choice-block .singer a {
   color: white;
 }
 .editors-choice-main .editors-choice-block .song a {
-  color: #3498db;
+  color: #3497DB;
   text-align: center;
 }
 .sorting-block {
@@ -102,18 +100,21 @@
 }
 .chart-main .track-item-menu .number-track {
   background: #e74c3c;
+  font-weight: 700;
   height: 80px;
   text-align: center;
+  padding-top: 4%;
 }
-.chart-main .track-item-menu .icon-track {
-  background-image: url(assets/images/images-chart/trackicon.png);
+.chart-main .track-item-menu .icon-track .avatar {
   height: 80px;
+  width: 80px;
 }
-.chart-main .track-item-menu .icon-track img {
-  transform: translate(40%, 30%);
+.chart-main .track-item-menu .icon-track .img-play {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-130%, 30%);
 }
 .chart-main .track-item-menu .name-track {
-  padding-left: 20px;
   padding-top: 20px;
 }
 .chart-main .track-item-menu .name-track a {
@@ -121,6 +122,7 @@
 }
 .chart-main .track-item-menu .name-track .sing a {
   color: black;
+  font-weight: 700;
 }
 .chart-main .track-item-menu .name-track .song a {
   color: #3498db;
@@ -160,25 +162,97 @@
   padding-bottom: 10px;
   text-align: center;
 }
-.chart-main .loadmore {
-  text-align: center;
+.chart-main .active-track-menu {
+  background: #f0f0f0;
 }
-.chart-main .loadmore button {
+.chart-main .active-track-menu .active-track-item .number-track {
+  background: #e74c3c;
+  font-weight: 700;
+  height: 150px;
+  text-align: center;
+  padding-top: 30%;
+}
+.chart-main .active-track-menu .active-track-item .icon-track .avatar {
+  height: 150px;
+  width: 150px;
+}
+.chart-main .active-track-menu .active-track-item .icon-track .img-play {
+  position: absolute;
+  z-index: 2;
+  transform: translate(100%, -190%);
+}
+.chart-main .active-track-menu .active-track-info {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.chart-main .active-track-menu .active-track-info .track-name a {
+  text-decoration: none;
+}
+.chart-main .active-track-menu .active-track-info .track-name .sing a {
+  color: black;
+  font-weight: 700;
+}
+.chart-main .active-track-menu .active-track-info .track-name .song a {
+  color: #3498db;
+}
+.chart-main .active-track-menu .active-track-info .active-track-options {
+  text-align: right;
+  padding-right: 15px;
+}
+.chart-main .active-track-menu .active-track-info .active-track-options button {
   background: #3498db;
   color: white;
-  padding: 1% 10%;
+  padding: 2.5%;
+  text-align: center;
+  margin: 1%;
+}
+.chart-main .active-track-menu .active-track-info .active-track-options .add-to-card button {
+  padding: 2.5% 13%;
+}
+.chart-main .active-special-info {
+  font-weight: 700;
+  color: black;
+}
+.chart-main .active-special-info .special-info {
+  color: #3498db;
+  border: solid 1px #3498db;
+  text-align: center;
+  padding: 5px;
+  margin-right: 3%;
+  margin-top: 5px;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chart-main .active-special-info .deal {
+  text-align: right;
+  padding-right: 15px;
+}
+.chart-main .active-special-info .deal .special-info-deal {
+  text-overflow: clip;
+  color: #3498db;
+  border: solid 1px #3498db;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+}
+.loadmore {
+  text-align: center;
+}
+.loadmore button {
+  background: #3498db;
+  color: white;
+  padding: 1% 7%;
+  margin-bottom: 4%;
 }
 .spotlight-artist-main {
   background: #3498db;
   color: white;
 }
-.spotlight-artist-main .spotlight-artist .spotlight-title {
-  height: 100%;
-}
 .spotlight-artist-main .spotlight-artist .spotlight-title .title-sp {
-  margin-top: 50%;
+  margin-top: 25%;
 }
-.spotlight-artist-main .spotlight-artist .spotlight-icon {
+.spotlight-artist-main .spotlight-artist .spotlight-icon img {
   background: #060505;
   width: 160px;
   height: 160px;
@@ -191,31 +265,61 @@
 .spotlight-artist-main .spotlight-artist .spotlight-icon:last-child {
   margin-right: 0px;
 }
-.player .player-track .singer {
+.player .progress-bar img {
+  position: absolute;
+  z-index: 2;
+  margin-top: -0.3%;
+}
+.player .player-track .avatar {
+  width: 100px;
+  height: 100px;
+}
+.player .player-track .img-play {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-150%, 50%);
+}
+.player .player-track .name-track {
+  padding-top: 20px;
+}
+.player .player-track .name-track a {
+  text-decoration: none;
+}
+.player .player-track .name-track .sing a {
+  color: black;
+  font-weight: 700;
+}
+.player .player-track .name-track .song a {
   color: #3498db;
-  padding-top: 10.5%;
 }
 .player .player-btn {
-  padding-top: 2.5%;
-  text-align: center;
   background: transparent;
 }
 .player .player-btn button {
   background: #f0f0f0;
 }
 .player .player-btn .btn-play {
-  padding-top: -1%;
+  text-align: center;
+  padding-top: 5%;
+}
+.player .player-btn .btn-prev {
+  text-align: right;
+  padding-top: 9%;
+}
+.player .player-btn .btn-folow {
+  text-align: left;
+  padding-top: 9%;
 }
 .player .player-options {
   padding-top: 2.5%;
   text-align: right;
 }
 .player .player-options button {
-  margin-left: 10px;
   background: #3498db;
+  color: white;
   padding: 10px;
   text-align: center;
-  color: white;
+  margin: 1%;
 }
 .footer {
   background: black;
