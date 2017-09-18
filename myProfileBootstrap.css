@@ -17,6 +17,10 @@
   text-decoration: none;
   padding-right: 0;
 }
+.pouring .navbar .container .navbar-toggle span {
+  display: block;
+  background-color: white !important;
+}
 .pouring .navbar .container .navbar-brand {
   margin-top: 5px;
 }
