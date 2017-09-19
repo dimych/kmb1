@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>BEATMAKERS.TV</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
@@ -104,19 +105,19 @@
                         <hr>
                         <div class='track-info'>
                             <div class='row'>
-                                <div class='genre-info col-xs-3 col-md-2'>
+                                <div class='genre-info col-xs-12 col-md-2'>
                                     <div class='info-tag-div'>Genre</div>
                                     <button class='info-about-track-button'>RAP</button>
                                 </div>
                                 <!--
                      -->
-                                <div class='mood-info col-xs-3 col-md-2'>
+                                <div class='mood-info col-xs-12 col-md-2'>
                                     <div class='info-tag-div'>Mood</div>
                                     <button class='info-about-track-button'>SMOOTH</button>
                                 </div>
                                 <!--
                      -->
-                                <div class='tags-info col-xs-8 col-md-5'>
+                                <div class='tags-info col-xs-12 col-md-5'>
                                     <div class='info-tag-div'>Tags</div>
                                     <button class='info-about-track-button'>#THEGAME</button>
                                     <button class='info-about-track-button'>#REDALBUM</button>
@@ -124,7 +125,7 @@
                                 </div>
                                 <!--
                      -->
-                                <div class='special-deal col-xs-4 col-md-3'>
+                                <div class='special-deal col-xs-12 col-md-3'>
                                     <div class='info-tag-div'>Special Deal</div>
                                     <button class='special-deal-button'>BUY 1 GET 1 FREE</button>
                                 </div>
@@ -139,7 +140,7 @@
         <div class='license'>
             <div class='container'>
                 <div class='row'>
-                    <div class='MP3-lease-basket col-xs-4 col-md-3'>
+                    <div class='MP3-lease-basket col-xs-6 col-md-3'>
                         <div class='MP3-lease-inner'>
                             <div class='MP3-lease'>
                                 MP3 MP3LEASE
@@ -246,13 +247,6 @@
         <div id='result'></div>
     </div>
     </div>
-    <script src='assets/js/jsrender.js'>
-
-    </script>
-    <script src='track.js'>
-
-    </script>
-
     <script id="theTmpl" type="text/template">
         <div class='other-beats col-md-4'>
             <div class='img-other-beats'>
@@ -266,29 +260,12 @@
             </div>
         </div>
     </script>
+    <script src='assets/js/jsrender.js'>
 
-    <script>
-        var data1 = {
-            'image': 'assets/images/cart-img/beat1.png',
-            'mood': 'Trap'
-        };
-        var data2 = {
-            'image': 'assets/images/cart-img/beat2.png',
-            'mood': 'RnB'
-        };
-        var data3 = {
-            'image': 'assets/images/cart-img/beat3.png',
-            'mood': 'Smooth'
-        };
-        var template = $.templates('#theTmpl');
-        var $html1 = template.render(data1);
-        $('.examples .row').append($html1);
-        var $html2 = template.render(data2);
-        $('.examples .row').append($html2);
-        var $html3 = template.render(data3);
-        $('.examples .row').append($html3);
     </script>
+    <script src='track.js'>
 
+    </script>
 
 </body>
 
