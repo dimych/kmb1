@@ -1,46 +1,60 @@
-  .header {
-
+.header {
     color: white;
     a {
         color: white;
         text-decoration: none;
         padding: 3%;
     }
-        .options {
-            color: white;
-            text-align: right;
-            padding-top: 4.5%;
-            padding-right: 3%;
+    .options {
+        color: white;
+        text-align: right;
+        padding-top: 4.5%;
+        padding-right: 3%;
+    }
+    .seach {
+        background: #272727;
+        text-align: left;
+        height: 80px;
+        color: #3f3f3f;
+        bottom: 0px;
+        i {
+            padding-left: 5px;
+            top: 30px;
         }
-        .seach {
-            background: #272727;
-            text-align: left;
-            height: 80px;
-            color: #3f3f3f;
-            bottom: 0px;
-            i {
-                padding-left: 5px;
-                top: 30px;
-            }
-            input {
-                background: transparent;
-                position: absolute;
-                top: 35%;
-            }
+        input {
+            background: transparent;
+            position: absolute;
+            top: 35%;
         }
-        .cart {
-            text-align: center;
-            padding-top: 4.5%;
+    }
+    .cart {
+        text-align: center;
+        padding-top: 4.5%;
+    }
+    .user-menu {
+        padding-top: 2.5%;
+    }
+    .user-menu :hover {
+        background: #3497DB;
+    }
+    .dropdown-menu {
+        li{
+            padding: 10px 15px;
         }
-        .user-menu {
-            padding-top: 2.5%;
-        }
-        .user-menu :hover{
+        .li-dropdown-1 {
             background: #3497DB;
+            a{
+            color: white;
+            }
         }
-    
+        .li-dropdown-2 {
+            background: #2d88c4;
+            a{
+                color: white;
+                }
+        }
+    }
 }
-
 .editors-choice-main {
     background-image: url(assets/images/images-chart/ed.png);
     color: white;
@@ -173,7 +187,6 @@
     .active-track-menu {
         background: #f0f0f0;
         .active-track-item {
-            
             .number-track {
                 background: #e74c3c;
                 font-weight: 700;
@@ -190,15 +203,13 @@
                     position: absolute;
                     z-index: 2;
                     transform: translate(100%, -190%);
-                    
+                }
             }
-        }
         }
         .active-track-info {
             padding-top: 20px;
             padding-left: 15px;
             .track-name {
-                
                 a {
                     text-decoration: none;
                 }
@@ -213,7 +224,6 @@
             .active-track-options {
                 text-align: right;
                 padding-right: 15px;
-                
                 button {
                     background: #3498db;
                     color: white;
@@ -221,7 +231,7 @@
                     text-align: center;
                     margin: 1%;
                 }
-                .add-to-card button{
+                .add-to-card button {
                     padding: 2.5% 13%;
                 }
             }
@@ -230,7 +240,7 @@
     .active-special-info {
         font-weight: 700;
         color: black;
-        .special-info{
+        .special-info {
             color: #3498db;
             border: solid 1px #3498db;
             text-align: center;
@@ -240,25 +250,21 @@
             width: 100px;
             overflow: hidden;
             text-overflow: ellipsis;
-            
         }
-        .deal{
+        .deal {
             text-align: right;
             padding-right: 15px;
-            .special-info-deal{
-            text-overflow: clip; 
-            color: #3498db;
-            border: solid 1px #3498db;
-            text-align: center;
-            margin-top: 5px;
-            padding: 5px;
-           }
-            
+            .special-info-deal {
+                text-overflow: clip;
+                color: #3498db;
+                border: solid 1px #3498db;
+                text-align: center;
+                margin-top: 5px;
+                padding: 5px;
+            }
         }
     }
 }
-
-
 
 .loadmore {
     text-align: center;
@@ -269,6 +275,7 @@
         margin-bottom: 4%;
     }
 }
+
 .spotlight-artist-main {
     background: #3498db;
     color: white;
@@ -285,7 +292,7 @@
             border-radius: 80px;
             margin-top: 8%;
             margin-bottom: 8%;
-            margin-right: 3%;
+            margin-right: 10px;
             text-align: left;
         }
         .spotlight-icon:last-child {
@@ -293,13 +300,13 @@
         }
     }
 }
+
 .player {
     .progress-bar img {
         position: absolute;
         z-index: 2;
         margin-top: -0.3%;
     }
-
     .player-track {
         .avatar {
             width: 100px;
@@ -324,7 +331,6 @@
             }
         }
     }
-
     .player-btn {
         background: transparent;
         button {
@@ -343,7 +349,6 @@
             padding-top: 9%;
         }
     }
-
     .player-options {
         padding-top: 2.5%;
         text-align: right;
@@ -356,6 +361,7 @@
         }
     }
 }
+
 .footer {
     background: black;
     color: white;
@@ -381,3 +387,10 @@
         }
     }
 }
+@media (max-width:767px){
+    .sorting-block{
+        .sort-items {
+            text-align: left;
+        }
+    }
+}    

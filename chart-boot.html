@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
     <title>CHARTS-BOOT</title>
 </head>
 
@@ -43,12 +45,11 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src=assets\images\images-chart\user.png></a>
                             <div class="caret"></div>
                             <ul class="dropdown-menu">
-                                <li><a href="#">My feed</a></li>
-                                <li><a href="#">My favorite</a></li>
-                                <li><a href="#">Purchased beats</a></li>
-                                <li><a href="#">Edit profile</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Log out</a></li>
+                                <li class='li-dropdown-1 '><a href="#">My feed</a></li>
+                                <li class='li-dropdown-2'><a href="#">My favorite</a></li>
+                                <li class='li-dropdown-1'><a href="#">Purchased beats</a></li>
+                                <li class='li-dropdown-2'><a href="#">Edit profile</a></li>
+                                <li class='li-dropdown-1'><a href="#">Log out</a></li>
                               </ul>
                         </div>
                         
@@ -63,24 +64,24 @@
             <div class='container'>
                 <div class='editors-choice-title'> Editors choice </div>
                 <div class='row'>
-                    <div class='editors-choice-block  col-xs-2'> </div>
-                    <div class='editors-choice-block  col-xs-2'> </div>
-                    <div class='editors-choice-block  col-xs-2'> </div>
-                    <div class='editors-choice-block  col-xs-2'> </div>
-                    <div class='editors-choice-block  col-xs-2'> </div>
-                    <div class='editors-choice-block  col-xs-2'> </div>
+                    <div class='editors-choice-block  col-md-2  col-sm-4 col-xs-6'> </div>
+                    <div class='editors-choice-block  col-md-2 col-sm-4 col-xs-6'> </div>
+                    <div class='editors-choice-block  col-md-2 col-sm-4 col-xs-6'> </div>
+                    <div class='editors-choice-block  col-md-2 col-sm-4 col-xs-6'> </div>
+                    <div class='editors-choice-block  col-md-2 col-sm-4  col-xs-6'> </div>
+                    <div class='editors-choice-block   col-md-2 col-sm-4 col-xs-6'> </div>
                 </div>
             </div>
         </div>
         <div class='sorting-block'>
             <div class='container'>
                 <div class='row'>
-                    <div class='top col-md-3 col-xs-3'>
+                    <div class='top col-md-3 col-sm-6 col-xs-10'>
                         <select> 
                         <option> TODAY'S TOP </option>
                     </select>
                     </div>
-                    <div class='sort-items col-md-9 col-xs-9'>
+                    <div class='sort-items col-md-9 col-sm-6 col-xs-12'>
                         <select> 
                         <option> ALL GENRES </option>
                     </select>
@@ -109,13 +110,17 @@
         <div class='spotlight-artist-main'>
             <div class='container spotlight-artist'>
                 <div class='row'>
-                    <div class='spotlight-title col-md-4 col-xs-4'>
+                    <div class='spotlight-title col-md-2 col-xs-3'>
                         <ul class='title-sp'>Spotlight Artist</ul>
                     </div>
-                    <div class='spotlight-icon col-md-2 col-xs-2'> </div>
-                    <div class='spotlight-icon col-md-2 col-xs-2'> </div>
-                    <div class='spotlight-icon col-md-2 col-xs-2'> </div>
-                    <div class='spotlight-icon col-md-2 col-xs-2'> </div>
+                    <div class= 'col-md-10 col-xs-9'>
+                        <div class='row'>
+                            <div class='spotlight-icon col-md-3 col-xs-6'> </div>
+                            <div class='spotlight-icon col-md-3 col-xs-6'> </div>
+                            <div class='spotlight-icon col-md-3 col-xs-6'> </div>
+                            <div class='spotlight-icon col-md-3 col-xs-6'> </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -234,7 +239,7 @@
                 <div class='row'>
                     <div class='save col-md-1 col-xs-1'> <a href=''> <img src='assets\images\images-chart\save.png'></a></div>
                     <div class='favorite col-md-1 col-xs-1'> <a href=''> <img src='assets\images\images-chart\star.png'></a></div>
-                    <div class='add-to-card col-md-6 col-xs-6'><a href=''>Add to Card {{:price}}  </a></div>
+                    <div class='add-to-card col-md-6 col-xs-6'><a href=''>Add to Card {{:price}} {{:currency}} </a></div>
                     <div class='information col-md-1 col-xs-1'><a href=''><img src='assets\images\images-chart\information.png'> </a></div>
                 </div>
             </div>
@@ -317,8 +322,11 @@
         </div>
     </script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
         crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
@@ -329,8 +337,7 @@
         crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-
+   
     <script src='jsrender.js'></script>
     <script src='chart-boot.js'></script>
     <link rel='stylesheet' href='chart-boot.css'>

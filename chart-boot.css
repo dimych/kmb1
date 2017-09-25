@@ -38,6 +38,21 @@
 .header .user-menu :hover {
   background: #3497DB;
 }
+.header .dropdown-menu li {
+  padding: 10px 15px;
+}
+.header .dropdown-menu .li-dropdown-1 {
+  background: #3497DB;
+}
+.header .dropdown-menu .li-dropdown-1 a {
+  color: white;
+}
+.header .dropdown-menu .li-dropdown-2 {
+  background: #2d88c4;
+}
+.header .dropdown-menu .li-dropdown-2 a {
+  color: white;
+}
 .editors-choice-main {
   background-image: url(assets/images/images-chart/ed.png);
   color: white;
@@ -259,7 +274,7 @@
   border-radius: 80px;
   margin-top: 8%;
   margin-bottom: 8%;
-  margin-right: 3%;
+  margin-right: 10px;
   text-align: left;
 }
 .spotlight-artist-main .spotlight-artist .spotlight-icon:last-child {
@@ -345,4 +360,9 @@
 .footer .container button {
   background: #3498db;
   width: 35%;
+}
+@media (max-width: 767px) {
+  .sorting-block .sort-items {
+    text-align: left;
+  }
 }

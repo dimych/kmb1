@@ -1,20 +1,56 @@
+
+
 (function() {
-    // for (i=0;i<10;i++) {
-    //     var newTrack= $('.chart-main').first().find('.track-item-menu').first().clone();
-    //      $('.chart-main').first().append(newTrack);
-    //  }
-    //  for (i=0;i<10;i++) {
-    //      var newTrack= $('.chart-main2').first().find('.track-item-menu').first().clone();
-    //       $('.chart-main2').first().append(newTrack);
-    //   }
+  
+        function View () {
+       
+    }    
+
     
-      
+    Loader.prototype.load = function(){
+        return {
+            spotlightArtist: [],
+            beats: [],
+            adsBeats: []
+        }
+    }
+    
+   
+    function Loader () {
+       
+    }    
+
+    Loader.prototype.load = function(){
+        return {
+            spotlightArtist: [],
+            beats: [],
+            adsBeats: []
+        }
+    }
+   
+   
+   
+    function ChartPage (loader, view) {
+        this.loader = loader;
+        this.view = view;
+    }    
+
+    ChartPage.prototype.init = function(){
+        var beats = this.loader.load();
+        this.view.render(beats);
+
+    }
+
+
+
+       
+
+
      var settings = {
          url: 'https://beatmaker.tv/app/api/beats',
          type: 'POST',
          success: function (data) {
              var beats = data.items;
-
              for (i = 0; i < beats.length; i++) {
                  var beatsi = beats[i];
                  var container = {
@@ -24,9 +60,8 @@
                     name: beatsi.name,
                     genre: beatsi.style.name,
                     mood: beatsi.mood.name,
-
-                    //  price: beatsi.price,
-                    //  currency : beatsi.price.currency
+                    price: beatsi.price[2].price,
+                    currency : beatsi.price[2].currency
                  };
                  var templateEditor = $.templates("#tmpEditor");
                  var tempContainerEditor = templateEditor.render(container);
@@ -53,10 +88,13 @@
 
      }
      $.ajax(settings);
-    
 
-     //for
-     //get template for each beat, put each beat to template,
-     // render and append to html as we done in 16-20 rows
+})();
 
+
+(function() {
+var loader = new Loader();
+var view = new View();
+    var page = new ChartPage(loader, view);
+    page.init();	
 })();
