@@ -1,3 +1,29 @@
+(function() {
+
+function MyProfile(){
+    this.loginTemplates = {
+    };
+};
+
+MyProfile.prototype.logIn = function() {
+};
+
+MyProfile.prototype.logOut = function() {
+};
+
+MyProfile.prototype.searchInfo = function() {
+};
+
+MyProfile.prototype.downloadTracks = function() {
+};
+
+MyProfile.prototype.sumBuyTracks = function() {
+};
+
+
+
+
+
 for (i = 0; i < 3; i++) {
     var newTrack = $('.favorites').first().find('.song-menu').first().clone();
     $('.clon').first().append(newTrack);
@@ -30,17 +56,17 @@ $('.user-about-info').append(userTemplate.render(user));
 
 
 //cart cash sum function
-$('.buy-song').click(function (e) {
-    $('.cash').val(Number($('.cash').val()) + Number($(e.target).val()))
-})
 
 
 
 
 
 
-    // $(documnt).on('click','.delete', istener)
+
+
+    // $(documnt).on('click','.delete', listener)
     // <script id="Tmpl" type="text/template">
     // <label>Name:{{:name}}</label> 
     // <img src='{{:src}}'> 
     // </script>
+})();

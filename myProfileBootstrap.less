@@ -1,5 +1,14 @@
+
 .indentation {
     margin-top: 15px;
+}
+
+.sel-padding-left {
+    padding-left: 0px;
+}
+
+.sel-padding-right {
+    padding-right: 0px;
 }
 
 .pouring {
@@ -17,7 +26,7 @@
                 text-decoration: none;
                 padding-right: 0;
             }
-            .navbar-toggle{
+            .navbar-toggle {
                 span {
                     display: block;
                     background-color: white !important;
@@ -42,20 +51,17 @@
                 }
             }
             .cash {
-                margin-left: 0px;
-                text-align: center;
+                margin-left: 5px;
+                margin-right: 10px;
+                text-align: left;
                 background: #191919;
-                width: 40px;
+                width: 60px;
                 border: none;
                 color: white;
                 margin-top: 30px;
-            }
-            .cart-logo {
-                margin-top: 30px;
-                margin-right: 15px;
-                padding-right: 15px;
                 background-image: url(assets/images/MyProfileImages/cartmini.png);
                 background-repeat: no-repeat;
+                background-position-x: right;
             }
         }
     }
@@ -124,8 +130,6 @@
     }
 }
 
-
-
 .user-about {
     background-image: url(assets/images/MyProfileImages/fon2.png);
     background-repeat: no-repeat;
@@ -156,7 +160,7 @@
                 padding-right: 30px;
                 span {
                     padding-top: 30px;
-                    padding-bottom: 26px;
+                    padding-bottom: 28px;
                     a {
                         color: white;
                         text-decoration: none;
@@ -182,7 +186,7 @@
             margin-bottom: 0;
         }
         .download-btn {
-            padding-left: 45px;
+            padding-left: 65px;
         }
         .download {
             margin-top: 20px;
@@ -238,6 +242,7 @@
     padding-bottom: 100px;
     .footer-logo {
         img {
+            padding-left: 15px;
             margin-top: 100px;
         }
     }
@@ -284,7 +289,6 @@
     }
 }
 
-
 @media only screen and (max-width: 1199px) {
     .navbar-brand {
         img {
@@ -319,5 +323,17 @@
     .navbar-brand {
         margin-top: 0px;
         padding-top: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .download-btn {
+        padding-left: 15px !important;
+    }
+    .ava-drop {
+        width: 60px;
+    }
+    .drop-menu {
+        width: 60px;
     }
 }
